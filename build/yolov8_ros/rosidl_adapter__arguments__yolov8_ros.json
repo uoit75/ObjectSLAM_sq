@@ -1,0 +1,7 @@
+{
+  "package_name": "yolov8_ros",
+  "non_idl_tuples": [
+    "/home/nvidia/yolov8_ros:msg/DetectedObjectMsg.msg",
+    "/home/nvidia/yolov8_ros:msg/DetectionResultMsg.msg"
+  ]
+}

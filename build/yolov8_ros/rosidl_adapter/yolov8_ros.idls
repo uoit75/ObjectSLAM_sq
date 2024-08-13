@@ -1,0 +1,2 @@
+/home/nvidia/yolov8_ros/build/yolov8_ros/rosidl_adapter/yolov8_ros:msg/DetectedObjectMsg.idl
+/home/nvidia/yolov8_ros/build/yolov8_ros/rosidl_adapter/yolov8_ros:msg/DetectionResultMsg.idl

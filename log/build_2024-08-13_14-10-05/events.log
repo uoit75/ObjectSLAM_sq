@@ -1,0 +1,1124 @@
+[0.000000] (-) TimerEvent: {}
+[0.000492] (yolov8_ros) JobQueued: {'identifier': 'yolov8_ros', 'dependencies': OrderedDict()}
+[0.001287] (yolov8_ros) JobStarted: {'identifier': 'yolov8_ros'}
+[0.022818] (yolov8_ros) JobProgress: {'identifier': 'yolov8_ros', 'progress': 'cmake'}
+[0.023501] (yolov8_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/nvidia/yolov8_ros', '-DCMAKE_INSTALL_PREFIX=/home/nvidia/yolov8_ros/install/yolov8_ros'], 'cwd': '/home/nvidia/yolov8_ros/build/yolov8_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', ''), ('USER', 'nvidia'), ('SSH_AGENT_PID', '2775'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nvidia/yolov8_ros/install/yolov8_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64::/home/nvidia/yolov8_ros/build/yolov8_ros'), ('HOME', '/home/nvidia'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', ''), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2597'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2bd0362cc2159a0fc9748f5b66bac87f'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/home/nvidia/yolov8_ros/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'nvidia'), ('http_proxy', 'http://127.0.0.1:7890/'), ('JOURNAL_STREAM', '8:58230'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nvidia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/nvidia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2810,unix/ubuntu:/tmp/.ICE-unix/2810'), ('INVOCATION_ID', '26ccbd415fcc41cfab129da7f3bd0fd8'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/88a693b5_316a_45bc_a396_3b8e76f67a0e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nvidia/yolov8_ros/install/yolov8_ros:/opt/ros/foxy:/home/nvidia/yolov8_ros/install'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nvidia/yolov8_ros/build/yolov8_ros'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2bd0362cc2159a0fc9748f5b66bac87f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nvidia/yolov8_ros/install/yolov8_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/nvidia/yolov8_ros/install/yolov8_ros:/opt/ros/foxy:/home/nvidia/yolov8_ros/install')]), 'shell': False}
+[0.099468] (-) TimerEvent: {}
+[0.141129] (yolov8_ros) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.199632] (-) TimerEvent: {}
+[0.242305] (yolov8_ros) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.299814] (-) TimerEvent: {}
+[0.400568] (-) TimerEvent: {}
+[0.501507] (-) TimerEvent: {}
+[0.602439] (-) TimerEvent: {}
+[0.703395] (-) TimerEvent: {}
+[0.804233] (-) TimerEvent: {}
+[0.905119] (-) TimerEvent: {}
+[1.005941] (-) TimerEvent: {}
+[1.106900] (-) TimerEvent: {}
+[1.207733] (-) TimerEvent: {}
+[1.308522] (-) TimerEvent: {}
+[1.409193] (-) TimerEvent: {}
+[1.451397] (yolov8_ros) StdoutLine: {'line': b'-- The CUDA compiler identification is NVIDIA 11.4.315\n'}
+[1.462936] (yolov8_ros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.509373] (-) TimerEvent: {}
+[1.610076] (-) TimerEvent: {}
+[1.611312] (yolov8_ros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.613250] (yolov8_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.710242] (-) TimerEvent: {}
+[1.760146] (yolov8_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.792709] (yolov8_ros) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.793277] (yolov8_ros) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.798539] (yolov8_ros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.810325] (-) TimerEvent: {}
+[1.910891] (-) TimerEvent: {}
+[1.960025] (yolov8_ros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.962746] (yolov8_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.011059] (-) TimerEvent: {}
+[2.111696] (-) TimerEvent: {}
+[2.130985] (yolov8_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.164812] (yolov8_ros) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.165704] (yolov8_ros) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.170142] (yolov8_ros) StdoutLine: {'line': b'-- Check for working CUDA compiler: /usr/local/cuda-11.4/bin/nvcc\n'}
+[2.211870] (-) TimerEvent: {}
+[2.312581] (-) TimerEvent: {}
+[2.413354] (-) TimerEvent: {}
+[2.514129] (-) TimerEvent: {}
+[2.614913] (-) TimerEvent: {}
+[2.715550] (-) TimerEvent: {}
+[2.816196] (-) TimerEvent: {}
+[2.916989] (-) TimerEvent: {}
+[3.017752] (-) TimerEvent: {}
+[3.118441] (-) TimerEvent: {}
+[3.219219] (-) TimerEvent: {}
+[3.319943] (-) TimerEvent: {}
+[3.362157] (yolov8_ros) StdoutLine: {'line': b'-- Check for working CUDA compiler: /usr/local/cuda-11.4/bin/nvcc -- works\n'}
+[3.364324] (yolov8_ros) StdoutLine: {'line': b'-- Detecting CUDA compiler ABI info\n'}
+[3.420120] (-) TimerEvent: {}
+[3.520807] (-) TimerEvent: {}
+[3.621606] (-) TimerEvent: {}
+[3.722386] (-) TimerEvent: {}
+[3.823095] (-) TimerEvent: {}
+[3.923731] (-) TimerEvent: {}
+[4.024369] (-) TimerEvent: {}
+[4.125015] (-) TimerEvent: {}
+[4.225687] (-) TimerEvent: {}
+[4.326384] (-) TimerEvent: {}
+[4.427108] (-) TimerEvent: {}
+[4.527889] (-) TimerEvent: {}
+[4.536451] (yolov8_ros) StdoutLine: {'line': b'-- Detecting CUDA compiler ABI info - done\n'}
+[4.605537] (yolov8_ros) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.628042] (-) TimerEvent: {}
+[4.728667] (-) TimerEvent: {}
+[4.763293] (yolov8_ros) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.763821] (yolov8_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.828841] (-) TimerEvent: {}
+[4.927648] (yolov8_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[4.928304] (yolov8_ros) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[4.928917] (-) TimerEvent: {}
+[5.029499] (-) TimerEvent: {}
+[5.071808] (yolov8_ros) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[5.072421] (yolov8_ros) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[5.129669] (-) TimerEvent: {}
+[5.217322] (yolov8_ros) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[5.220215] (yolov8_ros) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.229766] (-) TimerEvent: {}
+[5.268195] (yolov8_ros) StdoutLine: {'line': b'-- Found CUDA: /usr/local/cuda-11.4 (found version "11.4") \n'}
+[5.281420] (yolov8_ros) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[5.283504] (yolov8_ros) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[5.329947] (-) TimerEvent: {}
+[5.333521] (yolov8_ros) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[5.334033] (yolov8_ros) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.430092] (-) TimerEvent: {}
+[5.530663] (-) TimerEvent: {}
+[5.631265] (-) TimerEvent: {}
+[5.731849] (-) TimerEvent: {}
+[5.832472] (-) TimerEvent: {}
+[5.843124] (yolov8_ros) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[5.909762] (yolov8_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.920346] (yolov8_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[5.932619] (-) TimerEvent: {}
+[6.033239] (-) TimerEvent: {}
+[6.103989] (yolov8_ros) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[6.133412] (-) TimerEvent: {}
+[6.154303] (yolov8_ros) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[6.233587] (-) TimerEvent: {}
+[6.302816] (yolov8_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.333751] (-) TimerEvent: {}
+[6.404575] (yolov8_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[6.407138] (yolov8_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.433903] (-) TimerEvent: {}
+[6.534527] (-) TimerEvent: {}
+[6.635183] (-) TimerEvent: {}
+[6.684855] (yolov8_ros) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[6.735342] (-) TimerEvent: {}
+[6.835963] (-) TimerEvent: {}
+[6.896701] (yolov8_ros) StdoutLine: {'line': b'-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)\n'}
+[6.919019] (yolov8_ros) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[6.936063] (-) TimerEvent: {}
+[6.987563] (yolov8_ros) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[7.036278] (-) TimerEvent: {}
+[7.137050] (-) TimerEvent: {}
+[7.237837] (-) TimerEvent: {}
+[7.338616] (-) TimerEvent: {}
+[7.439438] (-) TimerEvent: {}
+[7.441678] (yolov8_ros) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[7.539648] (-) TimerEvent: {}
+[7.640467] (-) TimerEvent: {}
+[7.741254] (-) TimerEvent: {}
+[7.841901] (-) TimerEvent: {}
+[7.942554] (-) TimerEvent: {}
+[8.038569] (yolov8_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.042637] (-) TimerEvent: {}
+[8.143167] (-) TimerEvent: {}
+[8.243803] (-) TimerEvent: {}
+[8.323668] (yolov8_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.343903] (-) TimerEvent: {}
+[8.383291] (yolov8_ros) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[8.385534] (yolov8_ros) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[8.444104] (-) TimerEvent: {}
+[8.446717] (yolov8_ros) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[8.447410] (yolov8_ros) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[8.447719] (yolov8_ros) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[8.447984] (yolov8_ros) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[8.494197] (yolov8_ros) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[8.544215] (-) TimerEvent: {}
+[8.644811] (-) TimerEvent: {}
+[8.745384] (-) TimerEvent: {}
+[8.845970] (-) TimerEvent: {}
+[8.946548] (-) TimerEvent: {}
+[9.047144] (-) TimerEvent: {}
+[9.147915] (-) TimerEvent: {}
+[9.248615] (-) TimerEvent: {}
+[9.288163] (yolov8_ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.348825] (-) TimerEvent: {}
+[9.449617] (-) TimerEvent: {}
+[9.550406] (-) TimerEvent: {}
+[9.651252] (-) TimerEvent: {}
+[9.712162] (yolov8_ros) StdoutLine: {'line': b'-- Generating done\n'}
+[9.719653] (yolov8_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/nvidia/yolov8_ros/build/yolov8_ros\n'}
+[9.751110] (yolov8_ros) CommandEnded: {'returncode': 0}
+[9.752748] (-) TimerEvent: {}
+[9.759264] (yolov8_ros) JobProgress: {'identifier': 'yolov8_ros', 'progress': 'build'}
+[9.759585] (yolov8_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nvidia/yolov8_ros/build/yolov8_ros', '--', '-j12', '-l12'], 'cwd': '/home/nvidia/yolov8_ros/build/yolov8_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', ''), ('USER', 'nvidia'), ('SSH_AGENT_PID', '2775'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nvidia/yolov8_ros/install/yolov8_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64::/home/nvidia/yolov8_ros/build/yolov8_ros'), ('HOME', '/home/nvidia'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', ''), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2597'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2bd0362cc2159a0fc9748f5b66bac87f'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/home/nvidia/yolov8_ros/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'nvidia'), ('http_proxy', 'http://127.0.0.1:7890/'), ('JOURNAL_STREAM', '8:58230'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nvidia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/nvidia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2810,unix/ubuntu:/tmp/.ICE-unix/2810'), ('INVOCATION_ID', '26ccbd415fcc41cfab129da7f3bd0fd8'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/88a693b5_316a_45bc_a396_3b8e76f67a0e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nvidia/yolov8_ros/install/yolov8_ros:/opt/ros/foxy:/home/nvidia/yolov8_ros/install'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nvidia/yolov8_ros/build/yolov8_ros'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2bd0362cc2159a0fc9748f5b66bac87f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nvidia/yolov8_ros/install/yolov8_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/nvidia/yolov8_ros/install/yolov8_ros:/opt/ros/foxy:/home/nvidia/yolov8_ros/install')]), 'shell': False}
+[9.852981] (-) TimerEvent: {}
+[9.854111] (yolov8_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target yolov8_ros__cpp\x1b[0m\n'}
+[9.854877] (yolov8_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target yolov8_library\x1b[0m\n'}
+[9.855081] (yolov8_ros) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[9.882578] (yolov8_ros) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[9.953115] (-) TimerEvent: {}
+[10.053698] (-) TimerEvent: {}
+[10.154324] (-) TimerEvent: {}
+[10.254904] (-) TimerEvent: {}
+[10.273027] (yolov8_ros) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_library.dir/src/app_yolov8_seg.cpp.o\x1b[0m\n'}
+[10.281436] (yolov8_ros) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_library.dir/src/app_yolov8_seg_ros_copy.cpp.o\x1b[0m\n'}
+[10.281917] (yolov8_ros) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_library.dir/src/utils/utils.cpp.o\x1b[0m\n'}
+[10.283347] (yolov8_ros) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CUDA object CMakeFiles/yolov8_library.dir/src/utils/kernel_function.cu.o\x1b[0m\n'}
+[10.284123] (yolov8_ros) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CUDA object CMakeFiles/yolov8_library.dir/src/decode_yolov8_seg.cu.o\x1b[0m\n'}
+[10.284598] (yolov8_ros) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_library.dir/src/utils/yolo.cpp.o\x1b[0m\n'}
+[10.285107] (yolov8_ros) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_library.dir/src/yolov8_seg.cpp.o\x1b[0m\n'}
+[10.286540] (yolov8_ros) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_library.dir/src/app_yolov8_seg_ros.cpp.o\x1b[0m\n'}
+[10.293697] (yolov8_ros) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_library.dir/usr/src/tensorrt/samples/common/logger.cpp.o\x1b[0m\n'}
+[10.300507] (yolov8_ros) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_library.dir/usr/src/tensorrt/samples/common/sampleOptions.cpp.o\x1b[0m\n'}
+[10.355111] (-) TimerEvent: {}
+[10.455755] (-) TimerEvent: {}
+[10.548776] (yolov8_ros) StdoutLine: {'line': b'[ 23%] Built target yolov8_ros__cpp\n'}
+[10.555949] (-) TimerEvent: {}
+[10.585069] (yolov8_ros) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[10.656126] (-) TimerEvent: {}
+[10.670410] (yolov8_ros) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[10.694119] (yolov8_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target yolov8_ros__rosidl_generator_c\x1b[0m\n'}
+[10.735111] (yolov8_ros) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding C object CMakeFiles/yolov8_ros__rosidl_generator_c.dir/rosidl_generator_c/yolov8_ros/msg/detail/detected_object_msg__functions.c.o\x1b[0m\n'}
+[10.756307] (-) TimerEvent: {}
+[10.856945] (-) TimerEvent: {}
+[10.957631] (-) TimerEvent: {}
+[11.000682] (yolov8_ros) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding C object CMakeFiles/yolov8_ros__rosidl_generator_c.dir/rosidl_generator_c/yolov8_ros/msg/detail/detection_result_msg__functions.c.o\x1b[0m\n'}
+[11.057824] (-) TimerEvent: {}
+[11.158486] (-) TimerEvent: {}
+[11.222727] (yolov8_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target yolov8_ros__rosidl_typesupport_cpp\x1b[0m\n'}
+[11.258668] (-) TimerEvent: {}
+[11.314106] (yolov8_ros) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_ros/msg/detected_object_msg__type_support.cpp.o\x1b[0m\n'}
+[11.358835] (-) TimerEvent: {}
+[11.360329] (yolov8_ros) StdoutLine: {'line': b'[ 34%] \x1b[32m\x1b[1mLinking C shared library libyolov8_ros__rosidl_generator_c.so\x1b[0m\n'}
+[11.459065] (-) TimerEvent: {}
+[11.496897] (yolov8_ros) StdoutLine: {'line': b'[ 34%] Built target yolov8_ros__rosidl_generator_c\n'}
+[11.543205] (yolov8_ros) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[11.559266] (-) TimerEvent: {}
+[11.561537] (yolov8_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target yolov8_ros__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[11.627700] (yolov8_ros) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_ros/msg/detail/dds_fastrtps/detected_object_msg__type_support.cpp.o\x1b[0m\n'}
+[11.659432] (-) TimerEvent: {}
+[11.760484] (-) TimerEvent: {}
+[11.861535] (-) TimerEvent: {}
+[11.962567] (-) TimerEvent: {}
+[12.063658] (-) TimerEvent: {}
+[12.164786] (-) TimerEvent: {}
+[12.179012] (yolov8_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target yolov8_ros__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[12.206310] (yolov8_ros) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_ros/msg/detection_result_msg__type_support.cpp.o\x1b[0m\n'}
+[12.226481] (yolov8_ros) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_ros/msg/detail/detected_object_msg__type_support.cpp.o\x1b[0m\n'}
+[12.265051] (-) TimerEvent: {}
+[12.365862] (-) TimerEvent: {}
+[12.466638] (-) TimerEvent: {}
+[12.567511] (-) TimerEvent: {}
+[12.668252] (-) TimerEvent: {}
+[12.742758] (yolov8_ros) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_ros/msg/detail/detection_result_msg__type_support.cpp.o\x1b[0m\n'}
+[12.768504] (-) TimerEvent: {}
+[12.869289] (-) TimerEvent: {}
+[12.970028] (-) TimerEvent: {}
+[13.033519] (yolov8_ros) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libyolov8_ros__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[13.070240] (-) TimerEvent: {}
+[13.135144] (yolov8_ros) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_ros/msg/detail/dds_fastrtps/detection_result_msg__type_support.cpp.o\x1b[0m\n'}
+[13.136988] (yolov8_ros) StdoutLine: {'line': b'[ 48%] Built target yolov8_ros__rosidl_typesupport_cpp\n'}
+[13.167017] (yolov8_ros) StdoutLine: {'line': b'[ 50%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[13.170437] (-) TimerEvent: {}
+[13.175134] (yolov8_ros) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[13.270624] (-) TimerEvent: {}
+[13.371340] (-) TimerEvent: {}
+[13.472064] (-) TimerEvent: {}
+[13.572756] (-) TimerEvent: {}
+[13.673459] (-) TimerEvent: {}
+[13.774509] (-) TimerEvent: {}
+[13.787332] (yolov8_ros) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libyolov8_ros__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[13.852297] (yolov8_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target yolov8_ros__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[13.874720] (-) TimerEvent: {}
+[13.903970] (yolov8_ros) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/yolov8_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_ros/msg/detail/detected_object_msg__type_support.c.o\x1b[0m\n'}
+[13.920121] (yolov8_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target yolov8_ros__rosidl_typesupport_c\x1b[0m\n'}
+[13.965522] (yolov8_ros) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_ros/msg/detected_object_msg__type_support.cpp.o\x1b[0m\n'}
+[13.974971] (-) TimerEvent: {}
+[14.001158] (yolov8_ros) StdoutLine: {'line': b'[ 57%] Built target yolov8_ros__rosidl_typesupport_introspection_cpp\n'}
+[14.032421] (yolov8_ros) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/yolov8_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_ros/msg/detail/detection_result_msg__type_support.c.o\x1b[0m\n'}
+[14.034553] (yolov8_ros) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_ros/msg/detection_result_msg__type_support.cpp.o\x1b[0m\n'}
+[14.075137] (-) TimerEvent: {}
+[14.133688] (yolov8_ros) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libyolov8_ros__rosidl_typesupport_c.so\x1b[0m\n'}
+[14.151532] (yolov8_ros) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking C shared library libyolov8_ros__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[14.175332] (-) TimerEvent: {}
+[14.259092] (yolov8_ros) StdoutLine: {'line': b'[ 65%] Built target yolov8_ros__rosidl_typesupport_c\n'}
+[14.267359] (yolov8_ros) StdoutLine: {'line': b'[ 65%] Built target yolov8_ros__rosidl_typesupport_introspection_c\n'}
+[14.275512] (-) TimerEvent: {}
+[14.376427] (-) TimerEvent: {}
+[14.477317] (-) TimerEvent: {}
+[14.546543] (yolov8_ros) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libyolov8_ros__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[14.577504] (-) TimerEvent: {}
+[14.678719] (-) TimerEvent: {}
+[14.752387] (yolov8_ros) StdoutLine: {'line': b'[ 67%] Built target yolov8_ros__rosidl_typesupport_fastrtps_cpp\n'}
+[14.779072] (-) TimerEvent: {}
+[14.781112] (yolov8_ros) StdoutLine: {'line': b'[ 69%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[14.879328] (-) TimerEvent: {}
+[14.980304] (-) TimerEvent: {}
+[15.081294] (-) TimerEvent: {}
+[15.182031] (-) TimerEvent: {}
+[15.282767] (-) TimerEvent: {}
+[15.348507] (yolov8_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target yolov8_ros__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[15.383074] (-) TimerEvent: {}
+[15.402978] (yolov8_ros) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_ros/msg/detail/detected_object_msg__type_support_c.cpp.o\x1b[0m\n'}
+[15.403510] (yolov8_ros) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_ros/msg/detail/detection_result_msg__type_support_c.cpp.o\x1b[0m\n'}
+[15.483171] (-) TimerEvent: {}
+[15.584292] (-) TimerEvent: {}
+[15.684980] (-) TimerEvent: {}
+[15.785709] (-) TimerEvent: {}
+[15.886496] (-) TimerEvent: {}
+[15.987380] (-) TimerEvent: {}
+[16.088112] (-) TimerEvent: {}
+[16.188833] (-) TimerEvent: {}
+[16.289639] (-) TimerEvent: {}
+[16.390467] (-) TimerEvent: {}
+[16.479286] (yolov8_ros) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libyolov8_ros__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[16.490553] (-) TimerEvent: {}
+[16.591323] (-) TimerEvent: {}
+[16.692060] (-) TimerEvent: {}
+[16.692904] (yolov8_ros) StdoutLine: {'line': b'[ 75%] Built target yolov8_ros__rosidl_typesupport_fastrtps_c\n'}
+[16.720194] (yolov8_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target yolov8_ros\x1b[0m\n'}
+[16.749887] (yolov8_ros) StdoutLine: {'line': b'[ 75%] Built target yolov8_ros\n'}
+[16.775611] (yolov8_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target yolov8_ros__py\x1b[0m\n'}
+[16.792253] (-) TimerEvent: {}
+[16.803809] (yolov8_ros) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[16.892416] (-) TimerEvent: {}
+[16.993083] (-) TimerEvent: {}
+[17.094070] (-) TimerEvent: {}
+[17.195122] (-) TimerEvent: {}
+[17.295997] (-) TimerEvent: {}
+[17.396702] (-) TimerEvent: {}
+[17.497355] (-) TimerEvent: {}
+[17.598079] (-) TimerEvent: {}
+[17.698790] (-) TimerEvent: {}
+[17.799560] (-) TimerEvent: {}
+[17.811205] (yolov8_ros) StdoutLine: {'line': b'[ 76%] Built target yolov8_ros__py\n'}
+[17.837827] (yolov8_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target yolov8_ros__python\x1b[0m\n'}
+[17.899754] (-) TimerEvent: {}
+[17.902166] (yolov8_ros) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding C object CMakeFiles/yolov8_ros__python.dir/rosidl_generator_py/yolov8_ros/msg/_detection_result_msg_s.c.o\x1b[0m\n'}
+[17.907037] (yolov8_ros) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/yolov8_ros__python.dir/rosidl_generator_py/yolov8_ros/msg/_detected_object_msg_s.c.o\x1b[0m\n'}
+[17.999952] (-) TimerEvent: {}
+[18.101136] (-) TimerEvent: {}
+[18.201850] (-) TimerEvent: {}
+[18.276285] (yolov8_ros) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/yolov8_ros/libyolov8_ros__python.so\x1b[0m\n'}
+[18.302037] (-) TimerEvent: {}
+[18.383406] (yolov8_ros) StdoutLine: {'line': b'[ 82%] Built target yolov8_ros__python\n'}
+[18.402235] (-) TimerEvent: {}
+[18.411536] (yolov8_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target yolov8_ros__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[18.413824] (yolov8_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target yolov8_ros__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[18.416221] (yolov8_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target yolov8_ros__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[18.472936] (yolov8_ros) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/yolov8_ros__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/yolov8_ros/_yolov8_ros_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[18.473440] (yolov8_ros) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/yolov8_ros__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/yolov8_ros/_yolov8_ros_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[18.503243] (-) TimerEvent: {}
+[18.512452] (yolov8_ros) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/yolov8_ros__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/yolov8_ros/_yolov8_ros_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[18.603458] (-) TimerEvent: {}
+[18.705891] (-) TimerEvent: {}
+[18.768687] (yolov8_ros) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/yolov8_ros/yolov8_ros_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[18.806137] (-) TimerEvent: {}
+[18.807243] (yolov8_ros) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/yolov8_ros/yolov8_ros_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[18.808685] (yolov8_ros) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/yolov8_ros/yolov8_ros_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[18.881781] (yolov8_ros) StdoutLine: {'line': b'[ 94%] Built target yolov8_ros__rosidl_typesupport_c__pyext\n'}
+[18.906512] (-) TimerEvent: {}
+[18.907588] (yolov8_ros) StdoutLine: {'line': b'[ 94%] Built target yolov8_ros__rosidl_typesupport_introspection_c__pyext\n'}
+[18.977497] (yolov8_ros) StdoutLine: {'line': b'[ 94%] Built target yolov8_ros__rosidl_typesupport_fastrtps_c__pyext\n'}
+[19.006696] (-) TimerEvent: {}
+[19.107435] (-) TimerEvent: {}
+[19.208370] (-) TimerEvent: {}
+[19.309134] (-) TimerEvent: {}
+[19.409900] (-) TimerEvent: {}
+[19.510584] (-) TimerEvent: {}
+[19.611296] (-) TimerEvent: {}
+[19.712019] (-) TimerEvent: {}
+[19.812709] (-) TimerEvent: {}
+[19.913409] (-) TimerEvent: {}
+[20.014094] (-) TimerEvent: {}
+[20.114794] (-) TimerEvent: {}
+[20.215589] (-) TimerEvent: {}
+[20.316444] (-) TimerEvent: {}
+[20.417162] (-) TimerEvent: {}
+[20.517907] (-) TimerEvent: {}
+[20.618584] (-) TimerEvent: {}
+[20.719306] (-) TimerEvent: {}
+[20.820003] (-) TimerEvent: {}
+[20.920676] (-) TimerEvent: {}
+[21.021344] (-) TimerEvent: {}
+[21.122045] (-) TimerEvent: {}
+[21.222721] (-) TimerEvent: {}
+[21.323436] (-) TimerEvent: {}
+[21.424134] (-) TimerEvent: {}
+[21.524796] (-) TimerEvent: {}
+[21.625469] (-) TimerEvent: {}
+[21.726132] (-) TimerEvent: {}
+[21.826791] (-) TimerEvent: {}
+[21.927447] (-) TimerEvent: {}
+[22.028114] (-) TimerEvent: {}
+[22.128797] (-) TimerEvent: {}
+[22.229458] (-) TimerEvent: {}
+[22.330109] (-) TimerEvent: {}
+[22.430734] (-) TimerEvent: {}
+[22.531404] (-) TimerEvent: {}
+[22.632118] (-) TimerEvent: {}
+[22.732790] (-) TimerEvent: {}
+[22.833451] (-) TimerEvent: {}
+[22.934120] (-) TimerEvent: {}
+[23.034792] (-) TimerEvent: {}
+[23.135511] (-) TimerEvent: {}
+[23.236206] (-) TimerEvent: {}
+[23.336901] (-) TimerEvent: {}
+[23.437592] (-) TimerEvent: {}
+[23.538273] (-) TimerEvent: {}
+[23.638995] (-) TimerEvent: {}
+[23.739676] (-) TimerEvent: {}
+[23.840371] (-) TimerEvent: {}
+[23.941221] (-) TimerEvent: {}
+[24.041889] (-) TimerEvent: {}
+[24.142555] (-) TimerEvent: {}
+[24.243237] (-) TimerEvent: {}
+[24.343896] (-) TimerEvent: {}
+[24.444617] (-) TimerEvent: {}
+[24.545304] (-) TimerEvent: {}
+[24.646000] (-) TimerEvent: {}
+[24.746689] (-) TimerEvent: {}
+[24.847395] (-) TimerEvent: {}
+[24.948080] (-) TimerEvent: {}
+[25.048763] (-) TimerEvent: {}
+[25.149454] (-) TimerEvent: {}
+[25.250130] (-) TimerEvent: {}
+[25.350827] (-) TimerEvent: {}
+[25.451534] (-) TimerEvent: {}
+[25.552229] (-) TimerEvent: {}
+[25.652901] (-) TimerEvent: {}
+[25.753579] (-) TimerEvent: {}
+[25.854264] (-) TimerEvent: {}
+[25.954984] (-) TimerEvent: {}
+[26.055666] (-) TimerEvent: {}
+[26.156344] (-) TimerEvent: {}
+[26.257075] (-) TimerEvent: {}
+[26.357774] (-) TimerEvent: {}
+[26.458472] (-) TimerEvent: {}
+[26.559153] (-) TimerEvent: {}
+[26.659824] (-) TimerEvent: {}
+[26.760474] (-) TimerEvent: {}
+[26.861120] (-) TimerEvent: {}
+[26.961773] (-) TimerEvent: {}
+[27.062432] (-) TimerEvent: {}
+[27.163097] (-) TimerEvent: {}
+[27.263749] (-) TimerEvent: {}
+[27.364412] (-) TimerEvent: {}
+[27.465062] (-) TimerEvent: {}
+[27.565721] (-) TimerEvent: {}
+[27.666388] (-) TimerEvent: {}
+[27.767059] (-) TimerEvent: {}
+[27.867712] (-) TimerEvent: {}
+[27.968362] (-) TimerEvent: {}
+[28.069046] (-) TimerEvent: {}
+[28.169712] (-) TimerEvent: {}
+[28.270385] (-) TimerEvent: {}
+[28.371098] (-) TimerEvent: {}
+[28.471750] (-) TimerEvent: {}
+[28.572391] (-) TimerEvent: {}
+[28.673045] (-) TimerEvent: {}
+[28.773701] (-) TimerEvent: {}
+[28.874357] (-) TimerEvent: {}
+[28.975057] (-) TimerEvent: {}
+[29.075717] (-) TimerEvent: {}
+[29.176368] (-) TimerEvent: {}
+[29.277040] (-) TimerEvent: {}
+[29.377733] (-) TimerEvent: {}
+[29.478396] (-) TimerEvent: {}
+[29.579069] (-) TimerEvent: {}
+[29.679732] (-) TimerEvent: {}
+[29.780401] (-) TimerEvent: {}
+[29.881069] (-) TimerEvent: {}
+[29.981725] (-) TimerEvent: {}
+[30.082381] (-) TimerEvent: {}
+[30.183452] (-) TimerEvent: {}
+[30.284131] (-) TimerEvent: {}
+[30.384807] (-) TimerEvent: {}
+[30.485492] (-) TimerEvent: {}
+[30.586156] (-) TimerEvent: {}
+[30.686821] (-) TimerEvent: {}
+[30.787494] (-) TimerEvent: {}
+[30.888153] (-) TimerEvent: {}
+[30.988821] (-) TimerEvent: {}
+[31.089506] (-) TimerEvent: {}
+[31.190198] (-) TimerEvent: {}
+[31.290890] (-) TimerEvent: {}
+[31.391603] (-) TimerEvent: {}
+[31.492327] (-) TimerEvent: {}
+[31.593006] (-) TimerEvent: {}
+[31.693682] (-) TimerEvent: {}
+[31.794387] (-) TimerEvent: {}
+[31.895087] (-) TimerEvent: {}
+[31.995768] (-) TimerEvent: {}
+[32.096441] (-) TimerEvent: {}
+[32.197106] (-) TimerEvent: {}
+[32.297784] (-) TimerEvent: {}
+[32.398457] (-) TimerEvent: {}
+[32.499114] (-) TimerEvent: {}
+[32.599780] (-) TimerEvent: {}
+[32.700460] (-) TimerEvent: {}
+[32.801141] (-) TimerEvent: {}
+[32.901800] (-) TimerEvent: {}
+[33.002484] (-) TimerEvent: {}
+[33.103136] (-) TimerEvent: {}
+[33.203815] (-) TimerEvent: {}
+[33.304522] (-) TimerEvent: {}
+[33.405195] (-) TimerEvent: {}
+[33.505864] (-) TimerEvent: {}
+[33.606549] (-) TimerEvent: {}
+[33.707268] (-) TimerEvent: {}
+[33.807972] (-) TimerEvent: {}
+[33.908669] (-) TimerEvent: {}
+[34.009369] (-) TimerEvent: {}
+[34.110057] (-) TimerEvent: {}
+[34.210751] (-) TimerEvent: {}
+[34.311449] (-) TimerEvent: {}
+[34.412130] (-) TimerEvent: {}
+[34.512802] (-) TimerEvent: {}
+[34.613601] (-) TimerEvent: {}
+[34.714384] (-) TimerEvent: {}
+[34.815197] (-) TimerEvent: {}
+[34.915945] (-) TimerEvent: {}
+[35.016574] (-) TimerEvent: {}
+[35.117217] (-) TimerEvent: {}
+[35.217869] (-) TimerEvent: {}
+[35.318512] (-) TimerEvent: {}
+[35.419234] (-) TimerEvent: {}
+[35.519907] (-) TimerEvent: {}
+[35.620599] (-) TimerEvent: {}
+[35.721280] (-) TimerEvent: {}
+[35.821969] (-) TimerEvent: {}
+[35.922670] (-) TimerEvent: {}
+[36.023377] (-) TimerEvent: {}
+[36.124056] (-) TimerEvent: {}
+[36.224747] (-) TimerEvent: {}
+[36.325427] (-) TimerEvent: {}
+[36.426133] (-) TimerEvent: {}
+[36.526827] (-) TimerEvent: {}
+[36.627542] (-) TimerEvent: {}
+[36.728212] (-) TimerEvent: {}
+[36.828883] (-) TimerEvent: {}
+[36.929565] (-) TimerEvent: {}
+[37.030250] (-) TimerEvent: {}
+[37.130931] (-) TimerEvent: {}
+[37.231615] (-) TimerEvent: {}
+[37.332293] (-) TimerEvent: {}
+[37.432968] (-) TimerEvent: {}
+[37.533656] (-) TimerEvent: {}
+[37.634340] (-) TimerEvent: {}
+[37.735032] (-) TimerEvent: {}
+[37.835713] (-) TimerEvent: {}
+[37.936401] (-) TimerEvent: {}
+[38.037094] (-) TimerEvent: {}
+[38.137750] (-) TimerEvent: {}
+[38.238427] (-) TimerEvent: {}
+[38.339095] (-) TimerEvent: {}
+[38.439777] (-) TimerEvent: {}
+[38.540459] (-) TimerEvent: {}
+[38.641156] (-) TimerEvent: {}
+[38.741840] (-) TimerEvent: {}
+[38.842461] (-) TimerEvent: {}
+[38.943134] (-) TimerEvent: {}
+[39.043811] (-) TimerEvent: {}
+[39.144474] (-) TimerEvent: {}
+[39.245145] (-) TimerEvent: {}
+[39.345814] (-) TimerEvent: {}
+[39.446679] (-) TimerEvent: {}
+[39.547436] (-) TimerEvent: {}
+[39.648126] (-) TimerEvent: {}
+[39.748797] (-) TimerEvent: {}
+[39.849470] (-) TimerEvent: {}
+[39.950148] (-) TimerEvent: {}
+[40.050867] (-) TimerEvent: {}
+[40.151641] (-) TimerEvent: {}
+[40.252275] (-) TimerEvent: {}
+[40.352903] (-) TimerEvent: {}
+[40.453561] (-) TimerEvent: {}
+[40.554322] (-) TimerEvent: {}
+[40.655064] (-) TimerEvent: {}
+[40.755762] (-) TimerEvent: {}
+[40.856465] (-) TimerEvent: {}
+[40.957211] (-) TimerEvent: {}
+[41.057900] (-) TimerEvent: {}
+[41.158573] (-) TimerEvent: {}
+[41.259321] (-) TimerEvent: {}
+[41.360049] (-) TimerEvent: {}
+[41.460729] (-) TimerEvent: {}
+[41.561499] (-) TimerEvent: {}
+[41.662254] (-) TimerEvent: {}
+[41.763014] (-) TimerEvent: {}
+[41.863732] (-) TimerEvent: {}
+[41.964416] (-) TimerEvent: {}
+[42.065211] (-) TimerEvent: {}
+[42.165961] (-) TimerEvent: {}
+[42.266721] (-) TimerEvent: {}
+[42.367477] (-) TimerEvent: {}
+[42.468294] (-) TimerEvent: {}
+[42.569092] (-) TimerEvent: {}
+[42.669895] (-) TimerEvent: {}
+[42.770697] (-) TimerEvent: {}
+[42.871507] (-) TimerEvent: {}
+[42.972315] (-) TimerEvent: {}
+[43.073118] (-) TimerEvent: {}
+[43.173916] (-) TimerEvent: {}
+[43.274727] (-) TimerEvent: {}
+[43.375567] (-) TimerEvent: {}
+[43.476372] (-) TimerEvent: {}
+[43.577170] (-) TimerEvent: {}
+[43.677964] (-) TimerEvent: {}
+[43.778744] (-) TimerEvent: {}
+[43.879569] (-) TimerEvent: {}
+[43.980379] (-) TimerEvent: {}
+[44.081198] (-) TimerEvent: {}
+[44.182009] (-) TimerEvent: {}
+[44.282826] (-) TimerEvent: {}
+[44.383672] (-) TimerEvent: {}
+[44.484493] (-) TimerEvent: {}
+[44.585308] (-) TimerEvent: {}
+[44.686141] (-) TimerEvent: {}
+[44.786977] (-) TimerEvent: {}
+[44.887784] (-) TimerEvent: {}
+[44.988600] (-) TimerEvent: {}
+[45.089427] (-) TimerEvent: {}
+[45.190245] (-) TimerEvent: {}
+[45.291111] (-) TimerEvent: {}
+[45.391940] (-) TimerEvent: {}
+[45.492764] (-) TimerEvent: {}
+[45.593589] (-) TimerEvent: {}
+[45.694436] (-) TimerEvent: {}
+[45.795285] (-) TimerEvent: {}
+[45.896092] (-) TimerEvent: {}
+[45.996901] (-) TimerEvent: {}
+[46.097724] (-) TimerEvent: {}
+[46.198531] (-) TimerEvent: {}
+[46.299398] (-) TimerEvent: {}
+[46.400200] (-) TimerEvent: {}
+[46.500995] (-) TimerEvent: {}
+[46.601744] (-) TimerEvent: {}
+[46.702443] (-) TimerEvent: {}
+[46.803179] (-) TimerEvent: {}
+[46.903872] (-) TimerEvent: {}
+[47.004634] (-) TimerEvent: {}
+[47.105395] (-) TimerEvent: {}
+[47.206160] (-) TimerEvent: {}
+[47.306916] (-) TimerEvent: {}
+[47.407773] (-) TimerEvent: {}
+[47.508570] (-) TimerEvent: {}
+[47.609353] (-) TimerEvent: {}
+[47.710161] (-) TimerEvent: {}
+[47.811005] (-) TimerEvent: {}
+[47.911816] (-) TimerEvent: {}
+[48.012631] (-) TimerEvent: {}
+[48.113469] (-) TimerEvent: {}
+[48.214278] (-) TimerEvent: {}
+[48.315124] (-) TimerEvent: {}
+[48.415932] (-) TimerEvent: {}
+[48.516741] (-) TimerEvent: {}
+[48.617555] (-) TimerEvent: {}
+[48.718372] (-) TimerEvent: {}
+[48.819203] (-) TimerEvent: {}
+[48.920069] (-) TimerEvent: {}
+[49.020888] (-) TimerEvent: {}
+[49.121676] (-) TimerEvent: {}
+[49.222512] (-) TimerEvent: {}
+[49.323374] (-) TimerEvent: {}
+[49.424185] (-) TimerEvent: {}
+[49.524977] (-) TimerEvent: {}
+[49.625776] (-) TimerEvent: {}
+[49.726578] (-) TimerEvent: {}
+[49.827446] (-) TimerEvent: {}
+[49.928318] (-) TimerEvent: {}
+[50.029135] (-) TimerEvent: {}
+[50.129914] (-) TimerEvent: {}
+[50.230706] (-) TimerEvent: {}
+[50.331584] (-) TimerEvent: {}
+[50.432357] (-) TimerEvent: {}
+[50.533215] (-) TimerEvent: {}
+[50.634043] (-) TimerEvent: {}
+[50.734845] (-) TimerEvent: {}
+[50.835800] (-) TimerEvent: {}
+[50.936610] (-) TimerEvent: {}
+[51.037371] (-) TimerEvent: {}
+[51.138131] (-) TimerEvent: {}
+[51.238783] (-) TimerEvent: {}
+[51.339423] (-) TimerEvent: {}
+[51.440129] (-) TimerEvent: {}
+[51.540960] (-) TimerEvent: {}
+[51.641765] (-) TimerEvent: {}
+[51.742575] (-) TimerEvent: {}
+[51.843417] (-) TimerEvent: {}
+[51.944226] (-) TimerEvent: {}
+[52.045010] (-) TimerEvent: {}
+[52.145710] (-) TimerEvent: {}
+[52.246510] (-) TimerEvent: {}
+[52.347350] (-) TimerEvent: {}
+[52.448159] (-) TimerEvent: {}
+[52.548950] (-) TimerEvent: {}
+[52.649736] (-) TimerEvent: {}
+[52.750540] (-) TimerEvent: {}
+[52.851411] (-) TimerEvent: {}
+[52.952201] (-) TimerEvent: {}
+[53.053023] (-) TimerEvent: {}
+[53.153814] (-) TimerEvent: {}
+[53.254624] (-) TimerEvent: {}
+[53.355483] (-) TimerEvent: {}
+[53.456291] (-) TimerEvent: {}
+[53.463351] (yolov8_ros) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX shared library libyolov8_library.so\x1b[0m\n'}
+[53.556486] (-) TimerEvent: {}
+[53.657358] (-) TimerEvent: {}
+[53.758172] (-) TimerEvent: {}
+[53.766420] (yolov8_ros) StdoutLine: {'line': b'[ 96%] Built target yolov8_library\n'}
+[53.792971] (yolov8_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target app_yolov8_seg_ros\x1b[0m\n'}
+[53.858377] (-) TimerEvent: {}
+[53.959201] (-) TimerEvent: {}
+[54.059912] (-) TimerEvent: {}
+[54.093586] (yolov8_ros) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding CXX object CMakeFiles/app_yolov8_seg_ros.dir/src/app_yolov8_seg_ros.cpp.o\x1b[0m\n'}
+[54.160089] (-) TimerEvent: {}
+[54.260766] (-) TimerEvent: {}
+[54.361426] (-) TimerEvent: {}
+[54.462109] (-) TimerEvent: {}
+[54.562789] (-) TimerEvent: {}
+[54.663495] (-) TimerEvent: {}
+[54.764152] (-) TimerEvent: {}
+[54.864835] (-) TimerEvent: {}
+[54.965501] (-) TimerEvent: {}
+[55.066167] (-) TimerEvent: {}
+[55.166832] (-) TimerEvent: {}
+[55.267540] (-) TimerEvent: {}
+[55.368211] (-) TimerEvent: {}
+[55.468899] (-) TimerEvent: {}
+[55.569586] (-) TimerEvent: {}
+[55.670281] (-) TimerEvent: {}
+[55.770967] (-) TimerEvent: {}
+[55.871641] (-) TimerEvent: {}
+[55.972326] (-) TimerEvent: {}
+[56.073033] (-) TimerEvent: {}
+[56.173859] (-) TimerEvent: {}
+[56.274678] (-) TimerEvent: {}
+[56.375547] (-) TimerEvent: {}
+[56.476363] (-) TimerEvent: {}
+[56.577183] (-) TimerEvent: {}
+[56.677992] (-) TimerEvent: {}
+[56.778806] (-) TimerEvent: {}
+[56.879641] (-) TimerEvent: {}
+[56.980435] (-) TimerEvent: {}
+[57.081214] (-) TimerEvent: {}
+[57.181987] (-) TimerEvent: {}
+[57.282746] (-) TimerEvent: {}
+[57.383594] (-) TimerEvent: {}
+[57.484377] (-) TimerEvent: {}
+[57.585159] (-) TimerEvent: {}
+[57.685922] (-) TimerEvent: {}
+[57.786697] (-) TimerEvent: {}
+[57.887517] (-) TimerEvent: {}
+[57.988310] (-) TimerEvent: {}
+[58.089060] (-) TimerEvent: {}
+[58.189838] (-) TimerEvent: {}
+[58.290644] (-) TimerEvent: {}
+[58.391495] (-) TimerEvent: {}
+[58.492163] (-) TimerEvent: {}
+[58.592848] (-) TimerEvent: {}
+[58.693513] (-) TimerEvent: {}
+[58.794170] (-) TimerEvent: {}
+[58.894844] (-) TimerEvent: {}
+[58.995548] (-) TimerEvent: {}
+[59.096223] (-) TimerEvent: {}
+[59.196900] (-) TimerEvent: {}
+[59.297553] (-) TimerEvent: {}
+[59.398226] (-) TimerEvent: {}
+[59.498910] (-) TimerEvent: {}
+[59.599623] (-) TimerEvent: {}
+[59.700296] (-) TimerEvent: {}
+[59.800953] (-) TimerEvent: {}
+[59.901604] (-) TimerEvent: {}
+[60.002272] (-) TimerEvent: {}
+[60.102977] (-) TimerEvent: {}
+[60.203627] (-) TimerEvent: {}
+[60.304659] (-) TimerEvent: {}
+[60.405363] (-) TimerEvent: {}
+[60.506041] (-) TimerEvent: {}
+[60.606709] (-) TimerEvent: {}
+[60.707397] (-) TimerEvent: {}
+[60.808032] (-) TimerEvent: {}
+[60.908713] (-) TimerEvent: {}
+[61.009372] (-) TimerEvent: {}
+[61.110046] (-) TimerEvent: {}
+[61.210731] (-) TimerEvent: {}
+[61.311421] (-) TimerEvent: {}
+[61.412098] (-) TimerEvent: {}
+[61.512771] (-) TimerEvent: {}
+[61.613439] (-) TimerEvent: {}
+[61.714104] (-) TimerEvent: {}
+[61.814762] (-) TimerEvent: {}
+[61.915468] (-) TimerEvent: {}
+[62.016129] (-) TimerEvent: {}
+[62.116788] (-) TimerEvent: {}
+[62.217453] (-) TimerEvent: {}
+[62.318131] (-) TimerEvent: {}
+[62.418849] (-) TimerEvent: {}
+[62.519569] (-) TimerEvent: {}
+[62.620243] (-) TimerEvent: {}
+[62.720929] (-) TimerEvent: {}
+[62.821619] (-) TimerEvent: {}
+[62.922290] (-) TimerEvent: {}
+[63.022989] (-) TimerEvent: {}
+[63.123695] (-) TimerEvent: {}
+[63.224436] (-) TimerEvent: {}
+[63.325116] (-) TimerEvent: {}
+[63.425872] (-) TimerEvent: {}
+[63.526650] (-) TimerEvent: {}
+[63.627425] (-) TimerEvent: {}
+[63.728168] (-) TimerEvent: {}
+[63.828976] (-) TimerEvent: {}
+[63.929781] (-) TimerEvent: {}
+[64.030565] (-) TimerEvent: {}
+[64.131343] (-) TimerEvent: {}
+[64.232092] (-) TimerEvent: {}
+[64.332867] (-) TimerEvent: {}
+[64.433665] (-) TimerEvent: {}
+[64.534517] (-) TimerEvent: {}
+[64.635347] (-) TimerEvent: {}
+[64.736134] (-) TimerEvent: {}
+[64.836897] (-) TimerEvent: {}
+[64.937600] (-) TimerEvent: {}
+[65.038381] (-) TimerEvent: {}
+[65.139213] (-) TimerEvent: {}
+[65.239996] (-) TimerEvent: {}
+[65.340772] (-) TimerEvent: {}
+[65.441562] (-) TimerEvent: {}
+[65.542332] (-) TimerEvent: {}
+[65.643114] (-) TimerEvent: {}
+[65.743890] (-) TimerEvent: {}
+[65.844690] (-) TimerEvent: {}
+[65.945493] (-) TimerEvent: {}
+[66.046285] (-) TimerEvent: {}
+[66.147095] (-) TimerEvent: {}
+[66.247864] (-) TimerEvent: {}
+[66.348662] (-) TimerEvent: {}
+[66.449485] (-) TimerEvent: {}
+[66.550258] (-) TimerEvent: {}
+[66.651060] (-) TimerEvent: {}
+[66.751846] (-) TimerEvent: {}
+[66.852649] (-) TimerEvent: {}
+[66.953489] (-) TimerEvent: {}
+[67.054314] (-) TimerEvent: {}
+[67.155144] (-) TimerEvent: {}
+[67.255965] (-) TimerEvent: {}
+[67.356790] (-) TimerEvent: {}
+[67.457610] (-) TimerEvent: {}
+[67.558418] (-) TimerEvent: {}
+[67.659235] (-) TimerEvent: {}
+[67.760031] (-) TimerEvent: {}
+[67.860826] (-) TimerEvent: {}
+[67.961639] (-) TimerEvent: {}
+[68.062462] (-) TimerEvent: {}
+[68.163322] (-) TimerEvent: {}
+[68.264150] (-) TimerEvent: {}
+[68.364979] (-) TimerEvent: {}
+[68.465803] (-) TimerEvent: {}
+[68.566635] (-) TimerEvent: {}
+[68.667569] (-) TimerEvent: {}
+[68.768402] (-) TimerEvent: {}
+[68.869214] (-) TimerEvent: {}
+[68.970023] (-) TimerEvent: {}
+[69.070858] (-) TimerEvent: {}
+[69.171721] (-) TimerEvent: {}
+[69.272463] (-) TimerEvent: {}
+[69.373201] (-) TimerEvent: {}
+[69.473929] (-) TimerEvent: {}
+[69.574641] (-) TimerEvent: {}
+[69.675443] (-) TimerEvent: {}
+[69.776261] (-) TimerEvent: {}
+[69.877077] (-) TimerEvent: {}
+[69.977917] (-) TimerEvent: {}
+[70.078774] (-) TimerEvent: {}
+[70.179611] (-) TimerEvent: {}
+[70.280426] (-) TimerEvent: {}
+[70.381207] (-) TimerEvent: {}
+[70.481959] (-) TimerEvent: {}
+[70.582800] (-) TimerEvent: {}
+[70.683660] (-) TimerEvent: {}
+[70.784488] (-) TimerEvent: {}
+[70.885302] (-) TimerEvent: {}
+[70.986132] (-) TimerEvent: {}
+[71.086965] (-) TimerEvent: {}
+[71.187814] (-) TimerEvent: {}
+[71.288658] (-) TimerEvent: {}
+[71.389477] (-) TimerEvent: {}
+[71.490296] (-) TimerEvent: {}
+[71.591126] (-) TimerEvent: {}
+[71.691932] (-) TimerEvent: {}
+[71.792725] (-) TimerEvent: {}
+[71.893513] (-) TimerEvent: {}
+[71.994317] (-) TimerEvent: {}
+[72.095114] (-) TimerEvent: {}
+[72.195901] (-) TimerEvent: {}
+[72.296724] (-) TimerEvent: {}
+[72.397518] (-) TimerEvent: {}
+[72.498336] (-) TimerEvent: {}
+[72.599143] (-) TimerEvent: {}
+[72.699957] (-) TimerEvent: {}
+[72.800751] (-) TimerEvent: {}
+[72.901568] (-) TimerEvent: {}
+[73.002369] (-) TimerEvent: {}
+[73.103210] (-) TimerEvent: {}
+[73.204017] (-) TimerEvent: {}
+[73.304809] (-) TimerEvent: {}
+[73.405609] (-) TimerEvent: {}
+[73.506411] (-) TimerEvent: {}
+[73.607242] (-) TimerEvent: {}
+[73.708064] (-) TimerEvent: {}
+[73.808871] (-) TimerEvent: {}
+[73.909710] (-) TimerEvent: {}
+[74.010542] (-) TimerEvent: {}
+[74.111388] (-) TimerEvent: {}
+[74.212216] (-) TimerEvent: {}
+[74.313027] (-) TimerEvent: {}
+[74.413832] (-) TimerEvent: {}
+[74.514627] (-) TimerEvent: {}
+[74.615453] (-) TimerEvent: {}
+[74.716275] (-) TimerEvent: {}
+[74.817090] (-) TimerEvent: {}
+[74.917916] (-) TimerEvent: {}
+[75.018728] (-) TimerEvent: {}
+[75.119488] (-) TimerEvent: {}
+[75.220296] (-) TimerEvent: {}
+[75.321076] (-) TimerEvent: {}
+[75.421870] (-) TimerEvent: {}
+[75.522718] (-) TimerEvent: {}
+[75.623566] (-) TimerEvent: {}
+[75.724421] (-) TimerEvent: {}
+[75.825309] (-) TimerEvent: {}
+[75.926142] (-) TimerEvent: {}
+[76.027014] (-) TimerEvent: {}
+[76.127841] (-) TimerEvent: {}
+[76.228617] (-) TimerEvent: {}
+[76.329373] (-) TimerEvent: {}
+[76.430133] (-) TimerEvent: {}
+[76.530922] (-) TimerEvent: {}
+[76.631719] (-) TimerEvent: {}
+[76.732468] (-) TimerEvent: {}
+[76.833272] (-) TimerEvent: {}
+[76.934053] (-) TimerEvent: {}
+[77.034833] (-) TimerEvent: {}
+[77.135641] (-) TimerEvent: {}
+[77.236410] (-) TimerEvent: {}
+[77.337175] (-) TimerEvent: {}
+[77.437969] (-) TimerEvent: {}
+[77.538738] (-) TimerEvent: {}
+[77.639509] (-) TimerEvent: {}
+[77.740277] (-) TimerEvent: {}
+[77.841134] (-) TimerEvent: {}
+[77.941944] (-) TimerEvent: {}
+[78.042720] (-) TimerEvent: {}
+[78.143534] (-) TimerEvent: {}
+[78.244312] (-) TimerEvent: {}
+[78.345066] (-) TimerEvent: {}
+[78.445856] (-) TimerEvent: {}
+[78.546741] (-) TimerEvent: {}
+[78.647585] (-) TimerEvent: {}
+[78.748396] (-) TimerEvent: {}
+[78.849214] (-) TimerEvent: {}
+[78.950021] (-) TimerEvent: {}
+[79.050845] (-) TimerEvent: {}
+[79.151673] (-) TimerEvent: {}
+[79.252479] (-) TimerEvent: {}
+[79.353301] (-) TimerEvent: {}
+[79.454131] (-) TimerEvent: {}
+[79.554994] (-) TimerEvent: {}
+[79.655777] (-) TimerEvent: {}
+[79.756559] (-) TimerEvent: {}
+[79.857354] (-) TimerEvent: {}
+[79.958171] (-) TimerEvent: {}
+[80.059000] (-) TimerEvent: {}
+[80.159801] (-) TimerEvent: {}
+[80.260612] (-) TimerEvent: {}
+[80.361414] (-) TimerEvent: {}
+[80.462219] (-) TimerEvent: {}
+[80.563040] (-) TimerEvent: {}
+[80.663779] (-) TimerEvent: {}
+[80.764572] (-) TimerEvent: {}
+[80.865346] (-) TimerEvent: {}
+[80.966135] (-) TimerEvent: {}
+[81.066927] (-) TimerEvent: {}
+[81.167752] (-) TimerEvent: {}
+[81.268547] (-) TimerEvent: {}
+[81.369329] (-) TimerEvent: {}
+[81.470127] (-) TimerEvent: {}
+[81.570902] (-) TimerEvent: {}
+[81.671583] (-) TimerEvent: {}
+[81.772259] (-) TimerEvent: {}
+[81.835939] (yolov8_ros) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable app_yolov8_seg_ros\x1b[0m\n'}
+[81.872419] (-) TimerEvent: {}
+[81.973067] (-) TimerEvent: {}
+[82.073866] (-) TimerEvent: {}
+[82.174653] (-) TimerEvent: {}
+[82.275355] (-) TimerEvent: {}
+[82.376051] (-) TimerEvent: {}
+[82.476729] (-) TimerEvent: {}
+[82.577433] (-) TimerEvent: {}
+[82.678238] (-) TimerEvent: {}
+[82.779069] (-) TimerEvent: {}
+[82.879866] (-) TimerEvent: {}
+[82.980672] (-) TimerEvent: {}
+[83.081522] (-) TimerEvent: {}
+[83.182342] (-) TimerEvent: {}
+[83.283198] (-) TimerEvent: {}
+[83.384015] (-) TimerEvent: {}
+[83.484841] (-) TimerEvent: {}
+[83.523986] (yolov8_ros) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_core.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_core.so.4.5\n'}
+[83.558454] (yolov8_ros) StdoutLine: {'line': b'[100%] Built target app_yolov8_seg_ros\n'}
+[83.585014] (-) TimerEvent: {}
+[83.587424] (yolov8_ros) CommandEnded: {'returncode': 0}
+[83.685211] (-) TimerEvent: {}
+[83.777263] (yolov8_ros) JobProgress: {'identifier': 'yolov8_ros', 'progress': 'install'}
+[83.785483] (-) TimerEvent: {}
+[83.806702] (yolov8_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nvidia/yolov8_ros/build/yolov8_ros'], 'cwd': '/home/nvidia/yolov8_ros/build/yolov8_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', ''), ('USER', 'nvidia'), ('SSH_AGENT_PID', '2775'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nvidia/yolov8_ros/install/yolov8_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64::/home/nvidia/yolov8_ros/build/yolov8_ros'), ('HOME', '/home/nvidia'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', ''), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2597'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2bd0362cc2159a0fc9748f5b66bac87f'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/home/nvidia/yolov8_ros/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'nvidia'), ('http_proxy', 'http://127.0.0.1:7890/'), ('JOURNAL_STREAM', '8:58230'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nvidia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/nvidia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2810,unix/ubuntu:/tmp/.ICE-unix/2810'), ('INVOCATION_ID', '26ccbd415fcc41cfab129da7f3bd0fd8'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/88a693b5_316a_45bc_a396_3b8e76f67a0e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nvidia/yolov8_ros/install/yolov8_ros:/opt/ros/foxy:/home/nvidia/yolov8_ros/install'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nvidia/yolov8_ros/build/yolov8_ros'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2bd0362cc2159a0fc9748f5b66bac87f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nvidia/yolov8_ros/install/yolov8_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/nvidia/yolov8_ros/install/yolov8_ros:/opt/ros/foxy:/home/nvidia/yolov8_ros/install')]), 'shell': False}
+[83.832637] (yolov8_ros) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[83.833347] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/ament_index/resource_index/rosidl_interfaces/yolov8_ros\n'}
+[83.833981] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros\n'}
+[83.834383] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg\n'}
+[83.834731] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail\n'}
+[83.835155] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detection_result_msg__functions.h\n'}
+[83.835466] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detection_result_msg__type_support.h\n'}
+[83.835804] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detected_object_msg__struct.h\n'}
+[83.836130] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detection_result_msg__struct.h\n'}
+[83.836429] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detected_object_msg__type_support.h\n'}
+[83.836711] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detected_object_msg__functions.h\n'}
+[83.836941] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detected_object_msg__functions.c\n'}
+[83.837226] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detection_result_msg__functions.c\n'}
+[83.837455] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detection_result_msg.h\n'}
+[83.837678] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detected_object_msg.h\n'}
+[83.838072] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/rosidl_generator_c__visibility_control.h\n'}
+[83.838398] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/environment/library_path.sh\n'}
+[83.838687] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/environment/library_path.dsv\n'}
+[83.839006] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/lib/libyolov8_ros__rosidl_generator_c.so\n'}
+[83.839277] (yolov8_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/nvidia/yolov8_ros/install/yolov8_ros/lib/libyolov8_ros__rosidl_generator_c.so" to ""\n'}
+[83.839528] (yolov8_ros) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros\n'}
+[83.839924] (yolov8_ros) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg\n'}
+[83.840316] (yolov8_ros) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail\n'}
+[83.840652] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detected_object_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[83.840892] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detection_result_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[83.841178] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[83.841410] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/lib/libyolov8_ros__rosidl_typesupport_fastrtps_c.so\n'}
+[83.841629] (yolov8_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/nvidia/yolov8_ros/install/yolov8_ros/lib/libyolov8_ros__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[83.842060] (yolov8_ros) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros\n'}
+[83.842317] (yolov8_ros) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg\n'}
+[83.842670] (yolov8_ros) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail\n'}
+[83.843044] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detected_object_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[83.843338] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/dds_fastrtps\n'}
+[83.843605] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detection_result_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[83.843835] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[83.844121] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/lib/libyolov8_ros__rosidl_typesupport_fastrtps_cpp.so\n'}
+[83.844409] (yolov8_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/nvidia/yolov8_ros/install/yolov8_ros/lib/libyolov8_ros__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[83.844645] (yolov8_ros) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros\n'}
+[83.845096] (yolov8_ros) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg\n'}
+[83.845489] (yolov8_ros) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail\n'}
+[83.845850] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detected_object_msg__type_support.c\n'}
+[83.846191] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detection_result_msg__type_support.c\n'}
+[83.846519] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detected_object_msg__rosidl_typesupport_introspection_c.h\n'}
+[83.846884] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detection_result_msg__rosidl_typesupport_introspection_c.h\n'}
+[83.847243] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[83.847604] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/lib/libyolov8_ros__rosidl_typesupport_introspection_c.so\n'}
+[83.847945] (yolov8_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/nvidia/yolov8_ros/install/yolov8_ros/lib/libyolov8_ros__rosidl_typesupport_introspection_c.so" to ""\n'}
+[83.848245] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/lib/libyolov8_ros__rosidl_typesupport_c.so\n'}
+[83.848525] (yolov8_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/nvidia/yolov8_ros/install/yolov8_ros/lib/libyolov8_ros__rosidl_typesupport_c.so" to ""\n'}
+[83.848815] (yolov8_ros) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros\n'}
+[83.849039] (yolov8_ros) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg\n'}
+[83.849254] (yolov8_ros) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail\n'}
+[83.849531] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detected_object_msg__type_support.hpp\n'}
+[83.849814] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detection_result_msg__builder.hpp\n'}
+[83.850059] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detected_object_msg__traits.hpp\n'}
+[83.850375] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detected_object_msg__struct.hpp\n'}
+[83.850669] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detected_object_msg__builder.hpp\n'}
+[83.850936] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detection_result_msg__traits.hpp\n'}
+[83.851271] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detection_result_msg__type_support.hpp\n'}
+[83.851504] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detection_result_msg__struct.hpp\n'}
+[83.851722] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detected_object_msg.hpp\n'}
+[83.851932] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detection_result_msg.hpp\n'}
+[83.852142] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[83.852349] (yolov8_ros) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros\n'}
+[83.852555] (yolov8_ros) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg\n'}
+[83.852762] (yolov8_ros) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail\n'}
+[83.852970] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detected_object_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[83.853179] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detection_result_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[83.853388] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detection_result_msg__type_support.cpp\n'}
+[83.853593] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detected_object_msg__type_support.cpp\n'}
+[83.853798] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/lib/libyolov8_ros__rosidl_typesupport_introspection_cpp.so\n'}
+[83.854005] (yolov8_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/nvidia/yolov8_ros/install/yolov8_ros/lib/libyolov8_ros__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[83.854210] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/lib/libyolov8_ros__rosidl_typesupport_cpp.so\n'}
+[83.854410] (yolov8_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/nvidia/yolov8_ros/install/yolov8_ros/lib/libyolov8_ros__rosidl_typesupport_cpp.so" to ""\n'}
+[83.854615] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/environment/pythonpath.sh\n'}
+[83.854817] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/environment/pythonpath.dsv\n'}
+[83.855062] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros/__init__.py\n'}
+[83.885591] (-) TimerEvent: {}
+[83.919522] (yolov8_ros) StdoutLine: {'line': b"Compiling '/home/nvidia/yolov8_ros/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros/__init__.py'...\n"}
+[83.932259] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros/msg\n'}
+[83.932745] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros/msg/_detected_object_msg_s.c\n'}
+[83.933107] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros/msg/_detection_result_msg.py\n'}
+[83.933444] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros/msg/_detection_result_msg_s.c\n'}
+[83.933728] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros/msg/_detected_object_msg.py\n'}
+[83.933957] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros/msg/__init__.py\n'}
+[83.934291] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros/yolov8_ros_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[83.934902] (yolov8_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/nvidia/yolov8_ros/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros/yolov8_ros_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[83.935334] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros/yolov8_ros_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[83.936247] (yolov8_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/nvidia/yolov8_ros/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros/yolov8_ros_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[83.936603] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros/yolov8_ros_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[83.937416] (yolov8_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/nvidia/yolov8_ros/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros/yolov8_ros_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[83.937712] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/lib/libyolov8_ros__python.so\n'}
+[83.938275] (yolov8_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/nvidia/yolov8_ros/install/yolov8_ros/lib/libyolov8_ros__python.so" to ""\n'}
+[83.938561] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/msg/DetectedObjectMsg.idl\n'}
+[83.938838] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/msg/DetectionResultMsg.idl\n'}
+[83.939168] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/msg/DetectedObjectMsg.msg\n'}
+[83.939458] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/msg/DetectionResultMsg.msg\n'}
+[83.939755] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/lib/yolov8_ros/app_yolov8_seg_ros\n'}
+[83.941781] (yolov8_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/nvidia/yolov8_ros/install/yolov8_ros/lib/yolov8_ros/app_yolov8_seg_ros" to ""\n'}
+[83.942112] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/ament_index/resource_index/package_run_dependencies/yolov8_ros\n'}
+[83.942421] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/ament_index/resource_index/parent_prefix_path/yolov8_ros\n'}
+[83.942705] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/environment/ament_prefix_path.sh\n'}
+[83.943031] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/environment/ament_prefix_path.dsv\n'}
+[83.943333] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/environment/path.sh\n'}
+[83.943616] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/environment/path.dsv\n'}
+[83.943891] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/local_setup.bash\n'}
+[83.944224] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/local_setup.sh\n'}
+[83.944510] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/local_setup.zsh\n'}
+[83.944791] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/local_setup.dsv\n'}
+[83.945074] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/package.dsv\n'}
+[83.945344] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/ament_index/resource_index/packages/yolov8_ros\n'}
+[83.945641] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/cmake/yolov8_ros__rosidl_generator_cExport.cmake\n'}
+[83.945976] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/cmake/yolov8_ros__rosidl_generator_cExport-release.cmake\n'}
+[83.946410] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/cmake/yolov8_ros__rosidl_typesupport_introspection_cExport.cmake\n'}
+[83.946735] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/cmake/yolov8_ros__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[83.947149] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/cmake/yolov8_ros__rosidl_typesupport_cExport.cmake\n'}
+[83.947472] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/cmake/yolov8_ros__rosidl_typesupport_cExport-release.cmake\n'}
+[83.947786] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/cmake/yolov8_ros__rosidl_generator_cppExport.cmake\n'}
+[83.948126] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/cmake/yolov8_ros__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[83.948437] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/cmake/yolov8_ros__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[83.948793] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/cmake/yolov8_ros__rosidl_typesupport_cppExport.cmake\n'}
+[83.949105] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/cmake/yolov8_ros__rosidl_typesupport_cppExport-release.cmake\n'}
+[83.949413] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/cmake/rosidl_cmake-extras.cmake\n'}
+[83.949719] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[83.950026] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[83.950406] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[83.950786] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[83.951129] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[83.951473] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[83.951804] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/cmake/yolov8_rosConfig.cmake\n'}
+[83.952158] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/cmake/yolov8_rosConfig-version.cmake\n'}
+[83.952390] (yolov8_ros) StdoutLine: {'line': b'-- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/package.xml\n'}
+[83.957046] (yolov8_ros) CommandEnded: {'returncode': 0}
+[83.986162] (-) TimerEvent: {}
+[84.088179] (-) TimerEvent: {}
+[84.189037] (-) TimerEvent: {}
+[84.221762] (yolov8_ros) JobEnded: {'identifier': 'yolov8_ros', 'rc': 0}
+[84.224270] (-) EventReactorShutdown: {}

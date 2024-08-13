@@ -1,0 +1,280 @@
+[0.026s] Invoking command in '/home/nvidia/yolov8_ros/build/yolov8_ros': /usr/bin/cmake /home/nvidia/yolov8_ros -DCMAKE_INSTALL_PREFIX=/home/nvidia/yolov8_ros/install/yolov8_ros
+[0.140s] -- The C compiler identification is GNU 9.4.0
+[0.241s] -- The CXX compiler identification is GNU 9.4.0
+[1.450s] -- The CUDA compiler identification is NVIDIA 11.4.315
+[1.462s] -- Check for working C compiler: /usr/bin/cc
+[1.610s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.612s] -- Detecting C compiler ABI info
+[1.759s] -- Detecting C compiler ABI info - done
+[1.791s] -- Detecting C compile features
+[1.792s] -- Detecting C compile features - done
+[1.797s] -- Check for working CXX compiler: /usr/bin/c++
+[1.959s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.962s] -- Detecting CXX compiler ABI info
+[2.130s] -- Detecting CXX compiler ABI info - done
+[2.164s] -- Detecting CXX compile features
+[2.164s] -- Detecting CXX compile features - done
+[2.169s] -- Check for working CUDA compiler: /usr/local/cuda-11.4/bin/nvcc
+[3.361s] -- Check for working CUDA compiler: /usr/local/cuda-11.4/bin/nvcc -- works
+[3.363s] -- Detecting CUDA compiler ABI info
+[4.535s] -- Detecting CUDA compiler ABI info - done
+[4.604s] -- Looking for pthread.h
+[4.762s] -- Looking for pthread.h - found
+[4.762s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.926s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.927s] -- Looking for pthread_create in pthreads
+[5.071s] -- Looking for pthread_create in pthreads - not found
+[5.071s] -- Looking for pthread_create in pthread
+[5.216s] -- Looking for pthread_create in pthread - found
+[5.219s] -- Found Threads: TRUE  
+[5.267s] -- Found CUDA: /usr/local/cuda-11.4 (found version "11.4") 
+[5.280s] -- Found OpenCV: /usr (found version "4.5.4") 
+[5.282s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[5.332s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[5.333s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.842s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[5.909s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.919s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[6.103s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[6.153s] -- Found FastRTPS: /opt/ros/foxy/include  
+[6.302s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.403s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.406s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.684s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[6.895s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[6.918s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[6.986s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[7.441s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[8.037s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.322s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.382s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[8.384s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[8.446s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[8.446s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.446s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[8.447s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[8.493s] -- Found PythonExtra: .so  
+[9.287s] -- Configuring done
+[9.711s] -- Generating done
+[9.718s] -- Build files have been written to: /home/nvidia/yolov8_ros/build/yolov8_ros
+[9.751s] Invoked command in '/home/nvidia/yolov8_ros/build/yolov8_ros' returned '0': /usr/bin/cmake /home/nvidia/yolov8_ros -DCMAKE_INSTALL_PREFIX=/home/nvidia/yolov8_ros/install/yolov8_ros
+[9.759s] Invoking command in '/home/nvidia/yolov8_ros/build/yolov8_ros': /usr/bin/cmake --build /home/nvidia/yolov8_ros/build/yolov8_ros -- -j12 -l12
+[9.853s] [35m[1mScanning dependencies of target yolov8_ros__cpp[0m
+[9.853s] [35m[1mScanning dependencies of target yolov8_library[0m
+[9.854s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[9.881s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[10.272s] [  5%] [32mBuilding CXX object CMakeFiles/yolov8_library.dir/src/app_yolov8_seg.cpp.o[0m
+[10.280s] [  9%] [32mBuilding CXX object CMakeFiles/yolov8_library.dir/src/app_yolov8_seg_ros_copy.cpp.o[0m
+[10.280s] [  9%] [32mBuilding CXX object CMakeFiles/yolov8_library.dir/src/utils/utils.cpp.o[0m
+[10.282s] [ 11%] [32mBuilding CUDA object CMakeFiles/yolov8_library.dir/src/utils/kernel_function.cu.o[0m
+[10.283s] [ 13%] [32mBuilding CUDA object CMakeFiles/yolov8_library.dir/src/decode_yolov8_seg.cu.o[0m
+[10.283s] [ 15%] [32mBuilding CXX object CMakeFiles/yolov8_library.dir/src/utils/yolo.cpp.o[0m
+[10.284s] [ 17%] [32mBuilding CXX object CMakeFiles/yolov8_library.dir/src/yolov8_seg.cpp.o[0m
+[10.285s] [ 19%] [32mBuilding CXX object CMakeFiles/yolov8_library.dir/src/app_yolov8_seg_ros.cpp.o[0m
+[10.292s] [ 21%] [32mBuilding CXX object CMakeFiles/yolov8_library.dir/usr/src/tensorrt/samples/common/logger.cpp.o[0m
+[10.299s] [ 23%] [32mBuilding CXX object CMakeFiles/yolov8_library.dir/usr/src/tensorrt/samples/common/sampleOptions.cpp.o[0m
+[10.548s] [ 23%] Built target yolov8_ros__cpp
+[10.584s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[10.669s] [ 26%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[10.693s] [35m[1mScanning dependencies of target yolov8_ros__rosidl_generator_c[0m
+[10.734s] [ 28%] [32mBuilding C object CMakeFiles/yolov8_ros__rosidl_generator_c.dir/rosidl_generator_c/yolov8_ros/msg/detail/detected_object_msg__functions.c.o[0m
+[10.999s] [ 30%] [32mBuilding C object CMakeFiles/yolov8_ros__rosidl_generator_c.dir/rosidl_generator_c/yolov8_ros/msg/detail/detection_result_msg__functions.c.o[0m
+[11.222s] [35m[1mScanning dependencies of target yolov8_ros__rosidl_typesupport_cpp[0m
+[11.313s] [ 32%] [32mBuilding CXX object CMakeFiles/yolov8_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_ros/msg/detected_object_msg__type_support.cpp.o[0m
+[11.359s] [ 34%] [32m[1mLinking C shared library libyolov8_ros__rosidl_generator_c.so[0m
+[11.496s] [ 34%] Built target yolov8_ros__rosidl_generator_c
+[11.542s] [ 36%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[11.560s] [35m[1mScanning dependencies of target yolov8_ros__rosidl_typesupport_fastrtps_cpp[0m
+[11.626s] [ 38%] [32mBuilding CXX object CMakeFiles/yolov8_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_ros/msg/detail/dds_fastrtps/detected_object_msg__type_support.cpp.o[0m
+[12.178s] [35m[1mScanning dependencies of target yolov8_ros__rosidl_typesupport_introspection_cpp[0m
+[12.205s] [ 40%] [32mBuilding CXX object CMakeFiles/yolov8_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_ros/msg/detection_result_msg__type_support.cpp.o[0m
+[12.225s] [ 42%] [32mBuilding CXX object CMakeFiles/yolov8_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_ros/msg/detail/detected_object_msg__type_support.cpp.o[0m
+[12.742s] [ 44%] [32mBuilding CXX object CMakeFiles/yolov8_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_ros/msg/detail/detection_result_msg__type_support.cpp.o[0m
+[13.032s] [ 46%] [32m[1mLinking CXX shared library libyolov8_ros__rosidl_typesupport_cpp.so[0m
+[13.134s] [ 48%] [32mBuilding CXX object CMakeFiles/yolov8_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_ros/msg/detail/dds_fastrtps/detection_result_msg__type_support.cpp.o[0m
+[13.136s] [ 48%] Built target yolov8_ros__rosidl_typesupport_cpp
+[13.166s] [ 50%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[13.174s] [ 51%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[13.786s] [ 53%] [32m[1mLinking CXX shared library libyolov8_ros__rosidl_typesupport_introspection_cpp.so[0m
+[13.851s] [35m[1mScanning dependencies of target yolov8_ros__rosidl_typesupport_introspection_c[0m
+[13.903s] [ 55%] [32mBuilding C object CMakeFiles/yolov8_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_ros/msg/detail/detected_object_msg__type_support.c.o[0m
+[13.919s] [35m[1mScanning dependencies of target yolov8_ros__rosidl_typesupport_c[0m
+[13.964s] [ 57%] [32mBuilding CXX object CMakeFiles/yolov8_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_ros/msg/detected_object_msg__type_support.cpp.o[0m
+[14.000s] [ 57%] Built target yolov8_ros__rosidl_typesupport_introspection_cpp
+[14.032s] [ 59%] [32mBuilding C object CMakeFiles/yolov8_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_ros/msg/detail/detection_result_msg__type_support.c.o[0m
+[14.033s] [ 61%] [32mBuilding CXX object CMakeFiles/yolov8_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_ros/msg/detection_result_msg__type_support.cpp.o[0m
+[14.133s] [ 63%] [32m[1mLinking CXX shared library libyolov8_ros__rosidl_typesupport_c.so[0m
+[14.150s] [ 65%] [32m[1mLinking C shared library libyolov8_ros__rosidl_typesupport_introspection_c.so[0m
+[14.258s] [ 65%] Built target yolov8_ros__rosidl_typesupport_c
+[14.266s] [ 65%] Built target yolov8_ros__rosidl_typesupport_introspection_c
+[14.545s] [ 67%] [32m[1mLinking CXX shared library libyolov8_ros__rosidl_typesupport_fastrtps_cpp.so[0m
+[14.751s] [ 67%] Built target yolov8_ros__rosidl_typesupport_fastrtps_cpp
+[14.780s] [ 69%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[15.347s] [35m[1mScanning dependencies of target yolov8_ros__rosidl_typesupport_fastrtps_c[0m
+[15.402s] [ 73%] [32mBuilding CXX object CMakeFiles/yolov8_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_ros/msg/detail/detected_object_msg__type_support_c.cpp.o[0m
+[15.402s] [ 73%] [32mBuilding CXX object CMakeFiles/yolov8_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_ros/msg/detail/detection_result_msg__type_support_c.cpp.o[0m
+[16.478s] [ 75%] [32m[1mLinking CXX shared library libyolov8_ros__rosidl_typesupport_fastrtps_c.so[0m
+[16.692s] [ 75%] Built target yolov8_ros__rosidl_typesupport_fastrtps_c
+[16.719s] [35m[1mScanning dependencies of target yolov8_ros[0m
+[16.749s] [ 75%] Built target yolov8_ros
+[16.774s] [35m[1mScanning dependencies of target yolov8_ros__py[0m
+[16.803s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[17.810s] [ 76%] Built target yolov8_ros__py
+[17.837s] [35m[1mScanning dependencies of target yolov8_ros__python[0m
+[17.901s] [ 78%] [32mBuilding C object CMakeFiles/yolov8_ros__python.dir/rosidl_generator_py/yolov8_ros/msg/_detection_result_msg_s.c.o[0m
+[17.906s] [ 80%] [32mBuilding C object CMakeFiles/yolov8_ros__python.dir/rosidl_generator_py/yolov8_ros/msg/_detected_object_msg_s.c.o[0m
+[18.275s] [ 82%] [32m[1mLinking C shared library rosidl_generator_py/yolov8_ros/libyolov8_ros__python.so[0m
+[18.382s] [ 82%] Built target yolov8_ros__python
+[18.410s] [35m[1mScanning dependencies of target yolov8_ros__rosidl_typesupport_fastrtps_c__pyext[0m
+[18.413s] [35m[1mScanning dependencies of target yolov8_ros__rosidl_typesupport_c__pyext[0m
+[18.415s] [35m[1mScanning dependencies of target yolov8_ros__rosidl_typesupport_introspection_c__pyext[0m
+[18.472s] [ 86%] [32mBuilding C object CMakeFiles/yolov8_ros__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/yolov8_ros/_yolov8_ros_s.ep.rosidl_typesupport_c.c.o[0m
+[18.472s] [ 86%] [32mBuilding C object CMakeFiles/yolov8_ros__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/yolov8_ros/_yolov8_ros_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[18.511s] [ 88%] [32mBuilding C object CMakeFiles/yolov8_ros__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/yolov8_ros/_yolov8_ros_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[18.767s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/yolov8_ros/yolov8_ros_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[18.806s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/yolov8_ros/yolov8_ros_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[18.808s] [ 94%] [32m[1mLinking CXX shared library rosidl_generator_py/yolov8_ros/yolov8_ros_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[18.881s] [ 94%] Built target yolov8_ros__rosidl_typesupport_c__pyext
+[18.906s] [ 94%] Built target yolov8_ros__rosidl_typesupport_introspection_c__pyext
+[18.976s] [ 94%] Built target yolov8_ros__rosidl_typesupport_fastrtps_c__pyext
+[53.462s] [ 96%] [32m[1mLinking CXX shared library libyolov8_library.so[0m
+[53.765s] [ 96%] Built target yolov8_library
+[53.792s] [35m[1mScanning dependencies of target app_yolov8_seg_ros[0m
+[54.092s] [ 98%] [32mBuilding CXX object CMakeFiles/app_yolov8_seg_ros.dir/src/app_yolov8_seg_ros.cpp.o[0m
+[81.835s] [100%] [32m[1mLinking CXX executable app_yolov8_seg_ros[0m
+[83.523s] /usr/bin/ld: warning: libopencv_core.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_core.so.4.5
+[83.557s] [100%] Built target app_yolov8_seg_ros
+[83.586s] Invoked command in '/home/nvidia/yolov8_ros/build/yolov8_ros' returned '0': /usr/bin/cmake --build /home/nvidia/yolov8_ros/build/yolov8_ros -- -j12 -l12
+[83.811s] Invoking command in '/home/nvidia/yolov8_ros/build/yolov8_ros': /usr/bin/cmake --install /home/nvidia/yolov8_ros/build/yolov8_ros
+[83.832s] -- Install configuration: "Release"
+[83.832s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/ament_index/resource_index/rosidl_interfaces/yolov8_ros
+[83.833s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros
+[83.833s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg
+[83.833s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail
+[83.834s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detection_result_msg__functions.h
+[83.834s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detection_result_msg__type_support.h
+[83.834s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detected_object_msg__struct.h
+[83.835s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detection_result_msg__struct.h
+[83.835s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detected_object_msg__type_support.h
+[83.835s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detected_object_msg__functions.h
+[83.836s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detected_object_msg__functions.c
+[83.836s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detection_result_msg__functions.c
+[83.836s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detection_result_msg.h
+[83.836s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detected_object_msg.h
+[83.837s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/rosidl_generator_c__visibility_control.h
+[83.837s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/environment/library_path.sh
+[83.837s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/environment/library_path.dsv
+[83.838s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/lib/libyolov8_ros__rosidl_generator_c.so
+[83.838s] -- Set runtime path of "/home/nvidia/yolov8_ros/install/yolov8_ros/lib/libyolov8_ros__rosidl_generator_c.so" to ""
+[83.838s] -- Up-to-date: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros
+[83.839s] -- Up-to-date: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg
+[83.839s] -- Up-to-date: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail
+[83.839s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detected_object_msg__rosidl_typesupport_fastrtps_c.h
+[83.840s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detection_result_msg__rosidl_typesupport_fastrtps_c.h
+[83.840s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[83.840s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/lib/libyolov8_ros__rosidl_typesupport_fastrtps_c.so
+[83.840s] -- Set runtime path of "/home/nvidia/yolov8_ros/install/yolov8_ros/lib/libyolov8_ros__rosidl_typesupport_fastrtps_c.so" to ""
+[83.841s] -- Up-to-date: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros
+[83.841s] -- Up-to-date: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg
+[83.841s] -- Up-to-date: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail
+[83.842s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detected_object_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[83.842s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/dds_fastrtps
+[83.842s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detection_result_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[83.842s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[83.843s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/lib/libyolov8_ros__rosidl_typesupport_fastrtps_cpp.so
+[83.843s] -- Set runtime path of "/home/nvidia/yolov8_ros/install/yolov8_ros/lib/libyolov8_ros__rosidl_typesupport_fastrtps_cpp.so" to ""
+[83.843s] -- Up-to-date: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros
+[83.844s] -- Up-to-date: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg
+[83.844s] -- Up-to-date: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail
+[83.845s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detected_object_msg__type_support.c
+[83.845s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detection_result_msg__type_support.c
+[83.845s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detected_object_msg__rosidl_typesupport_introspection_c.h
+[83.846s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detection_result_msg__rosidl_typesupport_introspection_c.h
+[83.846s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[83.846s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/lib/libyolov8_ros__rosidl_typesupport_introspection_c.so
+[83.847s] -- Set runtime path of "/home/nvidia/yolov8_ros/install/yolov8_ros/lib/libyolov8_ros__rosidl_typesupport_introspection_c.so" to ""
+[83.847s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/lib/libyolov8_ros__rosidl_typesupport_c.so
+[83.847s] -- Set runtime path of "/home/nvidia/yolov8_ros/install/yolov8_ros/lib/libyolov8_ros__rosidl_typesupport_c.so" to ""
+[83.847s] -- Up-to-date: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros
+[83.848s] -- Up-to-date: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg
+[83.848s] -- Up-to-date: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail
+[83.848s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detected_object_msg__type_support.hpp
+[83.848s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detection_result_msg__builder.hpp
+[83.849s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detected_object_msg__traits.hpp
+[83.849s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detected_object_msg__struct.hpp
+[83.849s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detected_object_msg__builder.hpp
+[83.850s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detection_result_msg__traits.hpp
+[83.850s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detection_result_msg__type_support.hpp
+[83.850s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detection_result_msg__struct.hpp
+[83.850s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detected_object_msg.hpp
+[83.851s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detection_result_msg.hpp
+[83.851s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/rosidl_generator_cpp__visibility_control.hpp
+[83.851s] -- Up-to-date: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros
+[83.851s] -- Up-to-date: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg
+[83.851s] -- Up-to-date: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail
+[83.852s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detected_object_msg__rosidl_typesupport_introspection_cpp.hpp
+[83.852s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detection_result_msg__rosidl_typesupport_introspection_cpp.hpp
+[83.852s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detection_result_msg__type_support.cpp
+[83.852s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/include/yolov8_ros/msg/detail/detected_object_msg__type_support.cpp
+[83.852s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/lib/libyolov8_ros__rosidl_typesupport_introspection_cpp.so
+[83.853s] -- Set runtime path of "/home/nvidia/yolov8_ros/install/yolov8_ros/lib/libyolov8_ros__rosidl_typesupport_introspection_cpp.so" to ""
+[83.853s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/lib/libyolov8_ros__rosidl_typesupport_cpp.so
+[83.853s] -- Set runtime path of "/home/nvidia/yolov8_ros/install/yolov8_ros/lib/libyolov8_ros__rosidl_typesupport_cpp.so" to ""
+[83.853s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/environment/pythonpath.sh
+[83.853s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/environment/pythonpath.dsv
+[83.854s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros/__init__.py
+[83.918s] Compiling '/home/nvidia/yolov8_ros/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros/__init__.py'...
+[83.931s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros/msg
+[83.931s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros/msg/_detected_object_msg_s.c
+[83.932s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros/msg/_detection_result_msg.py
+[83.932s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros/msg/_detection_result_msg_s.c
+[83.932s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros/msg/_detected_object_msg.py
+[83.933s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros/msg/__init__.py
+[83.933s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros/yolov8_ros_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[83.934s] -- Set runtime path of "/home/nvidia/yolov8_ros/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros/yolov8_ros_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""
+[83.934s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros/yolov8_ros_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[83.935s] -- Set runtime path of "/home/nvidia/yolov8_ros/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros/yolov8_ros_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""
+[83.935s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros/yolov8_ros_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[83.936s] -- Set runtime path of "/home/nvidia/yolov8_ros/install/yolov8_ros/lib/python3.8/site-packages/yolov8_ros/yolov8_ros_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""
+[83.936s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/lib/libyolov8_ros__python.so
+[83.937s] -- Set runtime path of "/home/nvidia/yolov8_ros/install/yolov8_ros/lib/libyolov8_ros__python.so" to ""
+[83.937s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/msg/DetectedObjectMsg.idl
+[83.938s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/msg/DetectionResultMsg.idl
+[83.938s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/msg/DetectedObjectMsg.msg
+[83.938s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/msg/DetectionResultMsg.msg
+[83.938s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/lib/yolov8_ros/app_yolov8_seg_ros
+[83.940s] -- Set runtime path of "/home/nvidia/yolov8_ros/install/yolov8_ros/lib/yolov8_ros/app_yolov8_seg_ros" to ""
+[83.941s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/ament_index/resource_index/package_run_dependencies/yolov8_ros
+[83.941s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/ament_index/resource_index/parent_prefix_path/yolov8_ros
+[83.941s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/environment/ament_prefix_path.sh
+[83.942s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/environment/ament_prefix_path.dsv
+[83.942s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/environment/path.sh
+[83.942s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/environment/path.dsv
+[83.943s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/local_setup.bash
+[83.943s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/local_setup.sh
+[83.943s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/local_setup.zsh
+[83.943s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/local_setup.dsv
+[83.944s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/package.dsv
+[83.944s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/ament_index/resource_index/packages/yolov8_ros
+[83.944s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/cmake/yolov8_ros__rosidl_generator_cExport.cmake
+[83.945s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/cmake/yolov8_ros__rosidl_generator_cExport-release.cmake
+[83.945s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/cmake/yolov8_ros__rosidl_typesupport_introspection_cExport.cmake
+[83.945s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/cmake/yolov8_ros__rosidl_typesupport_introspection_cExport-release.cmake
+[83.946s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/cmake/yolov8_ros__rosidl_typesupport_cExport.cmake
+[83.946s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/cmake/yolov8_ros__rosidl_typesupport_cExport-release.cmake
+[83.946s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/cmake/yolov8_ros__rosidl_generator_cppExport.cmake
+[83.947s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/cmake/yolov8_ros__rosidl_typesupport_introspection_cppExport.cmake
+[83.947s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/cmake/yolov8_ros__rosidl_typesupport_introspection_cppExport-release.cmake
+[83.947s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/cmake/yolov8_ros__rosidl_typesupport_cppExport.cmake
+[83.948s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/cmake/yolov8_ros__rosidl_typesupport_cppExport-release.cmake
+[83.948s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/cmake/rosidl_cmake-extras.cmake
+[83.948s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[83.949s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[83.949s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/cmake/ament_cmake_export_targets-extras.cmake
+[83.949s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[83.950s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[83.950s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[83.951s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/cmake/yolov8_rosConfig.cmake
+[83.951s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/cmake/yolov8_rosConfig-version.cmake
+[83.951s] -- Installing: /home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/package.xml
+[83.957s] Invoked command in '/home/nvidia/yolov8_ros/build/yolov8_ros' returned '0': /usr/bin/cmake --install /home/nvidia/yolov8_ros/build/yolov8_ros

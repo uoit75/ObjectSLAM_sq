@@ -1,0 +1,4 @@
+msg/DetectedObjectMsg.idl
+msg/DetectedObjectMsg.msg
+msg/DetectionResultMsg.idl
+msg/DetectionResultMsg.msg

@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from yolov8_ros/msg/DetectedObjectMsg.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "sensor_msgs/msg/Image.idl"
+
+module yolov8_ros {
+  module msg {
+    struct DetectedObjectMsg {
+      int32 label;
+
+      float confidence;
+
+      sequence<geometry_msgs::msg::Point> bbox_points;
+
+      sensor_msgs::msg::Image masks_instance;
+    };
+  };
+};

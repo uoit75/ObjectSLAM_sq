@@ -1,0 +1,125 @@
+[0.494s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[0.495s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff869304c0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff869304c0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff867d1100>)[0m
+[0.979s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.979s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.979s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.979s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.979s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.980s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.980s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/nvidia/yolov8_ros'
+[0.980s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.980s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.981s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.981s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.981s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.981s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.981s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.981s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.981s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[1.016s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage '.' with type 'ros.ament_cmake' and name 'yolov8_ros'[0m
+[1.017s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[1.017s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[1.017s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[1.017s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[1.017s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[1.047s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[1.047s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[1.049s] [34mcolcon.colcon_ros.prefix_path.ament[0m [1;30mWARNING[0m [33mThe path '/home/nvidia/yolov8_ros/install/yolov8_ros' in the environment variable AMENT_PREFIX_PATH doesn't exist[0m
+[1.049s] [34mcolcon.colcon_ros.prefix_path.ament[0m [1;30mWARNING[0m [33mThe path '/home/nvidia/yolov8_ros/install' in the environment variable AMENT_PREFIX_PATH doesn't contain any 'local_setup.*' files.[0m
+[1.049s] [34mcolcon.colcon_ros.prefix_path.catkin[0m [1;30mWARNING[0m [33mThe path '/home/nvidia/yolov8_ros/install/yolov8_ros' in the environment variable CMAKE_PREFIX_PATH doesn't exist[0m
+[1.051s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 0 installed packages in /home/nvidia/yolov8_ros/install[0m
+[1.053s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 257 installed packages in /opt/ros/foxy[0m
+[1.058s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[1.165s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov8_ros' build argument 'cmake_args' from command line to 'None'
+[1.165s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov8_ros' build argument 'cmake_target' from command line to 'None'
+[1.165s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov8_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.165s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov8_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[1.165s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov8_ros' build argument 'cmake_clean_first' from command line to 'False'
+[1.165s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov8_ros' build argument 'cmake_force_configure' from command line to 'False'
+[1.165s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov8_ros' build argument 'ament_cmake_args' from command line to 'None'
+[1.165s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov8_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[1.165s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'yolov8_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.166s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'yolov8_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nvidia/yolov8_ros/build/yolov8_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nvidia/yolov8_ros/install/yolov8_ros', 'merge_install': False, 'path': '/home/nvidia/yolov8_ros', 'symlink_install': False, 'test_result_base': None}[0m
+[1.166s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[1.169s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[1.169s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/nvidia/yolov8_ros' with build type 'ament_cmake'
+[1.169s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/nvidia/yolov8_ros'
+[1.173s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.174s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.174s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.199s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/nvidia/yolov8_ros/build/yolov8_ros': /usr/bin/cmake /home/nvidia/yolov8_ros -DCMAKE_INSTALL_PREFIX=/home/nvidia/yolov8_ros/install/yolov8_ros[0m
+[10.920s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/nvidia/yolov8_ros/build/yolov8_ros' returned '0': /usr/bin/cmake /home/nvidia/yolov8_ros -DCMAKE_INSTALL_PREFIX=/home/nvidia/yolov8_ros/install/yolov8_ros[0m
+[10.929s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/nvidia/yolov8_ros/build/yolov8_ros': /usr/bin/cmake --build /home/nvidia/yolov8_ros/build/yolov8_ros -- -j12 -l12[0m
+[84.756s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/nvidia/yolov8_ros/build/yolov8_ros' returned '0': /usr/bin/cmake --build /home/nvidia/yolov8_ros/build/yolov8_ros -- -j12 -l12[0m
+[84.981s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/nvidia/yolov8_ros/build/yolov8_ros': /usr/bin/cmake --install /home/nvidia/yolov8_ros/build/yolov8_ros[0m
+[85.125s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(yolov8_ros)
+[85.127s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/nvidia/yolov8_ros/build/yolov8_ros' returned '0': /usr/bin/cmake --install /home/nvidia/yolov8_ros/build/yolov8_ros[0m
+[85.136s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/nvidia/yolov8_ros/install/yolov8_ros' for CMake module files
+[85.138s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/nvidia/yolov8_ros/install/yolov8_ros' for CMake config files
+[85.140s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('yolov8_ros', 'cmake_prefix_path')
+[85.141s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/hook/cmake_prefix_path.ps1'
+[85.144s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/hook/cmake_prefix_path.dsv'
+[85.145s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/hook/cmake_prefix_path.sh'
+[85.149s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/nvidia/yolov8_ros/install/yolov8_ros/lib'
+[85.150s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('yolov8_ros', 'ld_library_path_lib')
+[85.150s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/hook/ld_library_path_lib.ps1'
+[85.152s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/hook/ld_library_path_lib.dsv'
+[85.153s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/hook/ld_library_path_lib.sh'
+[85.155s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/nvidia/yolov8_ros/install/yolov8_ros/bin'
+[85.155s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/nvidia/yolov8_ros/install/yolov8_ros/lib/pkgconfig/yolov8_ros.pc'
+[85.156s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/nvidia/yolov8_ros/install/yolov8_ros/lib/python3.8/site-packages'
+[85.157s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('yolov8_ros', 'pythonpath')
+[85.157s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/hook/pythonpath.ps1'
+[85.159s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/hook/pythonpath.dsv'
+[85.160s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/hook/pythonpath.sh'
+[85.161s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/nvidia/yolov8_ros/install/yolov8_ros/bin'
+[85.163s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/package.ps1'
+[85.166s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/package.dsv'
+[85.168s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/package.sh'
+[85.170s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/package.bash'
+[85.172s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/package.zsh'
+[85.174s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/nvidia/yolov8_ros/install/yolov8_ros/share/colcon-core/packages/yolov8_ros)
+[85.360s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(yolov8_ros)
+[85.361s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/nvidia/yolov8_ros/install/yolov8_ros' for CMake module files
+[85.363s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/nvidia/yolov8_ros/install/yolov8_ros' for CMake config files
+[85.364s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('yolov8_ros', 'cmake_prefix_path')
+[85.365s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/hook/cmake_prefix_path.ps1'
+[85.367s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/hook/cmake_prefix_path.dsv'
+[85.368s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/hook/cmake_prefix_path.sh'
+[85.371s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/nvidia/yolov8_ros/install/yolov8_ros/lib'
+[85.371s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('yolov8_ros', 'ld_library_path_lib')
+[85.372s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/hook/ld_library_path_lib.ps1'
+[85.373s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/hook/ld_library_path_lib.dsv'
+[85.374s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/hook/ld_library_path_lib.sh'
+[85.375s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/nvidia/yolov8_ros/install/yolov8_ros/bin'
+[85.376s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/nvidia/yolov8_ros/install/yolov8_ros/lib/pkgconfig/yolov8_ros.pc'
+[85.376s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/nvidia/yolov8_ros/install/yolov8_ros/lib/python3.8/site-packages'
+[85.376s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('yolov8_ros', 'pythonpath')
+[85.377s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/hook/pythonpath.ps1'
+[85.379s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/hook/pythonpath.dsv'
+[85.380s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/hook/pythonpath.sh'
+[85.381s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/nvidia/yolov8_ros/install/yolov8_ros/bin'
+[85.382s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/package.ps1'
+[85.384s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/package.dsv'
+[85.385s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/package.sh'
+[85.386s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/package.bash'
+[85.388s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/nvidia/yolov8_ros/install/yolov8_ros/share/yolov8_ros/package.zsh'
+[85.388s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/nvidia/yolov8_ros/install/yolov8_ros/share/colcon-core/packages/yolov8_ros)
+[85.389s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[85.390s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[85.391s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[85.391s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[85.407s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[85.408s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[85.408s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[85.463s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[85.464s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/nvidia/yolov8_ros/install/local_setup.ps1'
+[85.467s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/nvidia/yolov8_ros/install/_local_setup_util_ps1.py'
+[85.470s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/nvidia/yolov8_ros/install/setup.ps1'
+[85.472s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/nvidia/yolov8_ros/install/local_setup.sh'
+[85.474s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/nvidia/yolov8_ros/install/_local_setup_util_sh.py'
+[85.475s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/nvidia/yolov8_ros/install/setup.sh'
+[85.477s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/nvidia/yolov8_ros/install/local_setup.bash'
+[85.479s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/nvidia/yolov8_ros/install/setup.bash'
+[85.481s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/nvidia/yolov8_ros/install/local_setup.zsh'
+[85.482s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/nvidia/yolov8_ros/install/setup.zsh'

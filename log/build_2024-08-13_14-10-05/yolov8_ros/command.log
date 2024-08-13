@@ -1,0 +1,6 @@
+Invoking command in '/home/nvidia/yolov8_ros/build/yolov8_ros': /usr/bin/cmake /home/nvidia/yolov8_ros -DCMAKE_INSTALL_PREFIX=/home/nvidia/yolov8_ros/install/yolov8_ros
+Invoked command in '/home/nvidia/yolov8_ros/build/yolov8_ros' returned '0': /usr/bin/cmake /home/nvidia/yolov8_ros -DCMAKE_INSTALL_PREFIX=/home/nvidia/yolov8_ros/install/yolov8_ros
+Invoking command in '/home/nvidia/yolov8_ros/build/yolov8_ros': /usr/bin/cmake --build /home/nvidia/yolov8_ros/build/yolov8_ros -- -j12 -l12
+Invoked command in '/home/nvidia/yolov8_ros/build/yolov8_ros' returned '0': /usr/bin/cmake --build /home/nvidia/yolov8_ros/build/yolov8_ros -- -j12 -l12
+Invoking command in '/home/nvidia/yolov8_ros/build/yolov8_ros': /usr/bin/cmake --install /home/nvidia/yolov8_ros/build/yolov8_ros
+Invoked command in '/home/nvidia/yolov8_ros/build/yolov8_ros' returned '0': /usr/bin/cmake --install /home/nvidia/yolov8_ros/build/yolov8_ros
