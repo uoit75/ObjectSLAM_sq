@@ -1,3 +1,0 @@
-[35m[1mScanning dependencies of target rgbd_yolo[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/rgbd_yolo.dir/src/rgbd_yolo.cpp.o[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/rgbd_yolo.dir/src/rgbd_yolo_node.cpp.o[0m
