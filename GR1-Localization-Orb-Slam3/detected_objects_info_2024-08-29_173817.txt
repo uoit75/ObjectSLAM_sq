@@ -1,0 +1,5 @@
+Label: 67
+Bounding Box: [x: 1, y: 212, width: 187, height: 15]
+Confidence: 0.318003
+Masks Instance Points: (0, 117) (0, 124) (3, 124) (3, 122) (2, 121) (2, 119) (1, 118) (1, 117) 
+--------------------------
