@@ -1,0 +1,13 @@
+[0.022s] Invoking command in '/home/nvidia/object_slam/build/gr1-localization-orb-slam3': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/nvidia/object_slam/build/gr1-localization-orb-slam3 -- -j12 -l12
+[0.107s] [35m[1mScanning dependencies of target rgbd_yolo[0m
+[0.224s] [ 50%] [32mBuilding CXX object CMakeFiles/rgbd_yolo.dir/src/rgbd_yolo_node.cpp.o[0m
+[0.225s] [ 50%] [32mBuilding CXX object CMakeFiles/rgbd_yolo.dir/src/rgbd_yolo.cpp.o[0m
+[11.556s] [01m[K/home/nvidia/object_slam/GR1-Localization-Orb-Slam3/src/rgbd_yolo_node.cpp:[m[K In member function ‘[01m[Kvoid RgbdYoloNode::detectionResultCallback(yolov8_ros::msg::DetectionResultMsg_<std::allocator<void> >::SharedPtr)[m[K’:
+[11.557s] [01m[K/home/nvidia/object_slam/GR1-Localization-Orb-Slam3/src/rgbd_yolo_node.cpp:256:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdetected_objects[m[K’ was not declared in this scope; did you mean ‘[01m[Kdetected_object[m[K’?
+[11.557s]   256 |         [01;31m[Kdetected_objects[m[K.push_back(detected_object);
+[11.557s]       |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[11.557s]       |         [32m[Kdetected_object[m[K
+[24.131s] make[2]: *** [CMakeFiles/rgbd_yolo.dir/build.make:76：CMakeFiles/rgbd_yolo.dir/src/rgbd_yolo_node.cpp.o] 错误 1
+[24.132s] make[1]: *** [CMakeFiles/Makefile2:78：CMakeFiles/rgbd_yolo.dir/all] 错误 2
+[24.133s] make: *** [Makefile:141：all] 错误 2
+[24.137s] Invoked command in '/home/nvidia/object_slam/build/gr1-localization-orb-slam3' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/nvidia/object_slam/build/gr1-localization-orb-slam3 -- -j12 -l12

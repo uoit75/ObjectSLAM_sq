@@ -1,0 +1,8 @@
+[01m[K/home/nvidia/object_slam/GR1-Localization-Orb-Slam3/src/rgbd_yolo_node.cpp:[m[K In member function ‘[01m[Kvoid RgbdYoloNode::detectionResultCallback(yolov8_ros::msg::DetectionResultMsg_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/nvidia/object_slam/GR1-Localization-Orb-Slam3/src/rgbd_yolo_node.cpp:256:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdetected_objects[m[K’ was not declared in this scope; did you mean ‘[01m[Kdetected_object[m[K’?
+  256 |         [01;31m[Kdetected_objects[m[K.push_back(detected_object);
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kdetected_object[m[K
+make[2]: *** [CMakeFiles/rgbd_yolo.dir/build.make:76：CMakeFiles/rgbd_yolo.dir/src/rgbd_yolo_node.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:78：CMakeFiles/rgbd_yolo.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

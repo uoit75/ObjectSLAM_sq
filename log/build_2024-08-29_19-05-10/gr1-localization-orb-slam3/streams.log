@@ -1,0 +1,24 @@
+[0.032s] Invoking command in '/home/nvidia/object_slam/build/gr1-localization-orb-slam3': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/nvidia/object_slam/build/gr1-localization-orb-slam3 -- -j12 -l12
+[0.124s] [35m[1mScanning dependencies of target rgbd_yolo[0m
+[0.241s] [ 50%] [32mBuilding CXX object CMakeFiles/rgbd_yolo.dir/src/rgbd_yolo.cpp.o[0m
+[0.241s] [ 50%] [32mBuilding CXX object CMakeFiles/rgbd_yolo.dir/src/rgbd_yolo_node.cpp.o[0m
+[11.234s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[11.234s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[11.234s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[11.234s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[11.235s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[11.235s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[11.235s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[11.235s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[11.235s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[11.235s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[11.235s]                  from [01m[K/home/nvidia/object_slam/GR1-Localization-Orb-Slam3/include/GR1-Localization-Orb-Slam3/rgbd_yolo_node.hpp:12[m[K,
+[11.235s]                  from [01m[K/home/nvidia/object_slam/GR1-Localization-Orb-Slam3/src/rgbd_yolo_node.cpp:1[m[K:
+[11.235s] [01m[K/home/nvidia/object_slam/GR1-Localization-Orb-Slam3/src/rgbd_yolo_node.cpp:[m[K In member function ‘[01m[Kvoid RgbdYoloNode::detectionResultCallback(yolov8_ros::msg::DetectionResultMsg_<std::allocator<void> >::SharedPtr)[m[K’:
+[11.235s] [01m[K/home/nvidia/object_slam/GR1-Localization-Orb-Slam3/src/rgbd_yolo_node.cpp:73:116:[m[K [01;31m[Kerror: [m[K‘[01m[Kros_obj[m[K’ was not declared in this scope
+[11.235s]    73 |             RCLCPP_WARN(rclcpp::get_logger("yolov8_ros"), "Incorrect number of points for bbox: %ld. Expected 4.", [01;31m[Kros_obj[m[K.bbox_points.size());
+[11.236s]       |                                                                                                                    [01;31m[K^~~~~~~[m[K
+[24.878s] make[2]: *** [CMakeFiles/rgbd_yolo.dir/build.make:76：CMakeFiles/rgbd_yolo.dir/src/rgbd_yolo_node.cpp.o] 错误 1
+[24.879s] make[1]: *** [CMakeFiles/Makefile2:78：CMakeFiles/rgbd_yolo.dir/all] 错误 2
+[24.879s] make: *** [Makefile:141：all] 错误 2
+[24.884s] Invoked command in '/home/nvidia/object_slam/build/gr1-localization-orb-slam3' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/nvidia/object_slam/build/gr1-localization-orb-slam3 -- -j12 -l12

@@ -1,0 +1,490 @@
+[0.000000] (-) TimerEvent: {}
+[0.000523] (-) JobUnselected: {'identifier': 'ORB_SLAM3'}
+[0.000669] (-) JobUnselected: {'identifier': 'g2o'}
+[0.000971] (gr1-localization-orb-slam3) JobQueued: {'identifier': 'gr1-localization-orb-slam3', 'dependencies': OrderedDict()}
+[0.001188] (gr1-localization-orb-slam3) JobStarted: {'identifier': 'gr1-localization-orb-slam3'}
+[0.016013] (gr1-localization-orb-slam3) JobProgress: {'identifier': 'gr1-localization-orb-slam3', 'progress': 'cmake'}
+[0.017412] (gr1-localization-orb-slam3) JobProgress: {'identifier': 'gr1-localization-orb-slam3', 'progress': 'build'}
+[0.018444] (gr1-localization-orb-slam3) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nvidia/object_slam/build/gr1-localization-orb-slam3', '--', '-j12', '-l12'], 'cwd': '/home/nvidia/object_slam/build/gr1-localization-orb-slam3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'nvidia'), ('SSH_AGENT_PID', '3136'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/home/nvidia/Fourier-SLAM/GR1_Navigation/GR1-Vslam/Thirdparty/DBoW2/lib:/home/nvidia/Fourier-SLAM/GR1_Navigation/GR1-Vslam/Thirdparty/g2o/lib:/home/nvidia/Fourier-SLAM/GR1_Navigation/GR1-Vslam/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/nvidia'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/nvidia/object_slam/GR1-Localization-Orb-Slam3'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '35.5.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'Jetson AGX Orin Developer Kit'), ('MANAGERPID', '2961'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ebbff016bfbf8ed905d499b60002880a'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'nvidia'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Orin (64GB ram)'), ('JETSON_SERIAL_NUMBER', '1420124278126'), ('JOURNAL_STREAM', '8:57090'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Concord'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nvidia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/nvidia/LMDeploy/miniconda3/miniconda3/bin:/home/nvidia/LMDeploy/miniconda3/miniconda3/condabin:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/nvidia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/3171,unix/ubuntu:/tmp/.ICE-unix/3171'), ('INVOCATION_ID', '8351b31f7dd24c8a807d37a0d6c9dca3'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/16fc7b5d_33ba_417e_ae75_ab5d3c1d3b63'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra23x'), ('GNOME_TERMINAL_SERVICE', ':1.129'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/nvidia/LMDeploy/miniconda3/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/nvidia/object_slam/build/gr1-localization-orb-slam3'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/nvidia/LMDeploy/miniconda3/miniconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ebbff016bfbf8ed905d499b60002880a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/nvidia/LMDeploy/miniconda3/miniconda3'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '5.1.3'), ('JETSON_P_NUMBER', 'p3701-0005'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099490] (-) TimerEvent: {}
+[0.114120] (gr1-localization-orb-slam3) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rgbd_yolo\x1b[0m\n'}
+[0.199669] (-) TimerEvent: {}
+[0.218054] (gr1-localization-orb-slam3) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/rgbd_yolo.dir/src/rgbd_yolo_node.cpp.o\x1b[0m\n'}
+[0.299833] (-) TimerEvent: {}
+[0.400448] (-) TimerEvent: {}
+[0.501083] (-) TimerEvent: {}
+[0.601749] (-) TimerEvent: {}
+[0.702405] (-) TimerEvent: {}
+[0.803004] (-) TimerEvent: {}
+[0.903626] (-) TimerEvent: {}
+[1.004262] (-) TimerEvent: {}
+[1.104996] (-) TimerEvent: {}
+[1.206055] (-) TimerEvent: {}
+[1.306677] (-) TimerEvent: {}
+[1.407304] (-) TimerEvent: {}
+[1.507922] (-) TimerEvent: {}
+[1.608555] (-) TimerEvent: {}
+[1.709270] (-) TimerEvent: {}
+[1.809859] (-) TimerEvent: {}
+[1.910447] (-) TimerEvent: {}
+[2.011060] (-) TimerEvent: {}
+[2.111689] (-) TimerEvent: {}
+[2.212324] (-) TimerEvent: {}
+[2.312967] (-) TimerEvent: {}
+[2.413585] (-) TimerEvent: {}
+[2.514201] (-) TimerEvent: {}
+[2.614805] (-) TimerEvent: {}
+[2.715445] (-) TimerEvent: {}
+[2.816051] (-) TimerEvent: {}
+[2.916652] (-) TimerEvent: {}
+[3.017289] (-) TimerEvent: {}
+[3.117909] (-) TimerEvent: {}
+[3.218535] (-) TimerEvent: {}
+[3.319248] (-) TimerEvent: {}
+[3.419882] (-) TimerEvent: {}
+[3.520514] (-) TimerEvent: {}
+[3.621183] (-) TimerEvent: {}
+[3.721814] (-) TimerEvent: {}
+[3.822438] (-) TimerEvent: {}
+[3.923064] (-) TimerEvent: {}
+[4.023708] (-) TimerEvent: {}
+[4.124332] (-) TimerEvent: {}
+[4.224973] (-) TimerEvent: {}
+[4.325612] (-) TimerEvent: {}
+[4.426229] (-) TimerEvent: {}
+[4.526877] (-) TimerEvent: {}
+[4.627527] (-) TimerEvent: {}
+[4.728165] (-) TimerEvent: {}
+[4.828782] (-) TimerEvent: {}
+[4.929442] (-) TimerEvent: {}
+[5.030076] (-) TimerEvent: {}
+[5.130713] (-) TimerEvent: {}
+[5.231355] (-) TimerEvent: {}
+[5.332038] (-) TimerEvent: {}
+[5.432687] (-) TimerEvent: {}
+[5.533399] (-) TimerEvent: {}
+[5.634063] (-) TimerEvent: {}
+[5.734745] (-) TimerEvent: {}
+[5.835398] (-) TimerEvent: {}
+[5.936046] (-) TimerEvent: {}
+[6.036702] (-) TimerEvent: {}
+[6.137374] (-) TimerEvent: {}
+[6.238036] (-) TimerEvent: {}
+[6.338720] (-) TimerEvent: {}
+[6.439388] (-) TimerEvent: {}
+[6.540035] (-) TimerEvent: {}
+[6.640679] (-) TimerEvent: {}
+[6.741336] (-) TimerEvent: {}
+[6.842001] (-) TimerEvent: {}
+[6.942628] (-) TimerEvent: {}
+[7.043263] (-) TimerEvent: {}
+[7.143902] (-) TimerEvent: {}
+[7.244538] (-) TimerEvent: {}
+[7.345203] (-) TimerEvent: {}
+[7.445841] (-) TimerEvent: {}
+[7.546449] (-) TimerEvent: {}
+[7.647057] (-) TimerEvent: {}
+[7.747685] (-) TimerEvent: {}
+[7.848333] (-) TimerEvent: {}
+[7.948982] (-) TimerEvent: {}
+[8.049626] (-) TimerEvent: {}
+[8.150275] (-) TimerEvent: {}
+[8.250916] (-) TimerEvent: {}
+[8.351548] (-) TimerEvent: {}
+[8.452187] (-) TimerEvent: {}
+[8.552799] (-) TimerEvent: {}
+[8.653496] (-) TimerEvent: {}
+[8.754115] (-) TimerEvent: {}
+[8.854733] (-) TimerEvent: {}
+[8.955372] (-) TimerEvent: {}
+[9.056035] (-) TimerEvent: {}
+[9.156737] (-) TimerEvent: {}
+[9.257395] (-) TimerEvent: {}
+[9.358032] (-) TimerEvent: {}
+[9.458666] (-) TimerEvent: {}
+[9.559284] (-) TimerEvent: {}
+[9.659918] (-) TimerEvent: {}
+[9.760545] (-) TimerEvent: {}
+[9.861208] (-) TimerEvent: {}
+[9.961834] (-) TimerEvent: {}
+[10.062450] (-) TimerEvent: {}
+[10.163082] (-) TimerEvent: {}
+[10.263695] (-) TimerEvent: {}
+[10.364310] (-) TimerEvent: {}
+[10.464953] (-) TimerEvent: {}
+[10.565577] (-) TimerEvent: {}
+[10.666202] (-) TimerEvent: {}
+[10.766806] (-) TimerEvent: {}
+[10.867420] (-) TimerEvent: {}
+[10.968031] (-) TimerEvent: {}
+[11.068647] (-) TimerEvent: {}
+[11.169297] (-) TimerEvent: {}
+[11.269917] (-) TimerEvent: {}
+[11.370582] (-) TimerEvent: {}
+[11.471239] (-) TimerEvent: {}
+[11.571869] (-) TimerEvent: {}
+[11.672491] (-) TimerEvent: {}
+[11.773123] (-) TimerEvent: {}
+[11.873759] (-) TimerEvent: {}
+[11.974374] (-) TimerEvent: {}
+[12.075001] (-) TimerEvent: {}
+[12.175652] (-) TimerEvent: {}
+[12.276303] (-) TimerEvent: {}
+[12.376952] (-) TimerEvent: {}
+[12.477584] (-) TimerEvent: {}
+[12.578211] (-) TimerEvent: {}
+[12.678859] (-) TimerEvent: {}
+[12.779575] (-) TimerEvent: {}
+[12.880221] (-) TimerEvent: {}
+[12.980883] (-) TimerEvent: {}
+[13.081526] (-) TimerEvent: {}
+[13.182170] (-) TimerEvent: {}
+[13.282805] (-) TimerEvent: {}
+[13.383435] (-) TimerEvent: {}
+[13.484065] (-) TimerEvent: {}
+[13.584695] (-) TimerEvent: {}
+[13.685320] (-) TimerEvent: {}
+[13.785975] (-) TimerEvent: {}
+[13.886605] (-) TimerEvent: {}
+[13.987230] (-) TimerEvent: {}
+[14.087851] (-) TimerEvent: {}
+[14.188506] (-) TimerEvent: {}
+[14.289194] (-) TimerEvent: {}
+[14.389816] (-) TimerEvent: {}
+[14.490444] (-) TimerEvent: {}
+[14.591084] (-) TimerEvent: {}
+[14.691712] (-) TimerEvent: {}
+[14.792348] (-) TimerEvent: {}
+[14.892986] (-) TimerEvent: {}
+[14.993607] (-) TimerEvent: {}
+[15.094240] (-) TimerEvent: {}
+[15.194898] (-) TimerEvent: {}
+[15.295553] (-) TimerEvent: {}
+[15.396191] (-) TimerEvent: {}
+[15.496873] (-) TimerEvent: {}
+[15.597522] (-) TimerEvent: {}
+[15.698183] (-) TimerEvent: {}
+[15.798824] (-) TimerEvent: {}
+[15.899499] (-) TimerEvent: {}
+[16.000169] (-) TimerEvent: {}
+[16.100852] (-) TimerEvent: {}
+[16.201714] (-) TimerEvent: {}
+[16.302389] (-) TimerEvent: {}
+[16.403004] (-) TimerEvent: {}
+[16.503591] (-) TimerEvent: {}
+[16.604197] (-) TimerEvent: {}
+[16.704774] (-) TimerEvent: {}
+[16.805374] (-) TimerEvent: {}
+[16.905954] (-) TimerEvent: {}
+[17.006554] (-) TimerEvent: {}
+[17.107200] (-) TimerEvent: {}
+[17.207808] (-) TimerEvent: {}
+[17.308423] (-) TimerEvent: {}
+[17.409044] (-) TimerEvent: {}
+[17.509701] (-) TimerEvent: {}
+[17.610313] (-) TimerEvent: {}
+[17.710915] (-) TimerEvent: {}
+[17.811532] (-) TimerEvent: {}
+[17.912152] (-) TimerEvent: {}
+[18.012768] (-) TimerEvent: {}
+[18.113402] (-) TimerEvent: {}
+[18.214014] (-) TimerEvent: {}
+[18.314666] (-) TimerEvent: {}
+[18.415303] (-) TimerEvent: {}
+[18.515915] (-) TimerEvent: {}
+[18.616541] (-) TimerEvent: {}
+[18.717188] (-) TimerEvent: {}
+[18.817821] (-) TimerEvent: {}
+[18.918467] (-) TimerEvent: {}
+[19.019102] (-) TimerEvent: {}
+[19.119726] (-) TimerEvent: {}
+[19.220366] (-) TimerEvent: {}
+[19.320986] (-) TimerEvent: {}
+[19.421611] (-) TimerEvent: {}
+[19.522237] (-) TimerEvent: {}
+[19.622869] (-) TimerEvent: {}
+[19.723514] (-) TimerEvent: {}
+[19.824150] (-) TimerEvent: {}
+[19.924791] (-) TimerEvent: {}
+[20.025446] (-) TimerEvent: {}
+[20.126091] (-) TimerEvent: {}
+[20.226753] (-) TimerEvent: {}
+[20.327394] (-) TimerEvent: {}
+[20.428047] (-) TimerEvent: {}
+[20.528674] (-) TimerEvent: {}
+[20.629305] (-) TimerEvent: {}
+[20.729913] (-) TimerEvent: {}
+[20.830528] (-) TimerEvent: {}
+[20.931157] (-) TimerEvent: {}
+[21.031792] (-) TimerEvent: {}
+[21.132415] (-) TimerEvent: {}
+[21.233050] (-) TimerEvent: {}
+[21.333689] (-) TimerEvent: {}
+[21.434321] (-) TimerEvent: {}
+[21.534956] (-) TimerEvent: {}
+[21.635599] (-) TimerEvent: {}
+[21.736219] (-) TimerEvent: {}
+[21.836831] (-) TimerEvent: {}
+[21.937455] (-) TimerEvent: {}
+[22.038073] (-) TimerEvent: {}
+[22.138682] (-) TimerEvent: {}
+[22.239291] (-) TimerEvent: {}
+[22.339885] (-) TimerEvent: {}
+[22.440494] (-) TimerEvent: {}
+[22.541129] (-) TimerEvent: {}
+[22.641755] (-) TimerEvent: {}
+[22.742377] (-) TimerEvent: {}
+[22.842985] (-) TimerEvent: {}
+[22.943577] (-) TimerEvent: {}
+[23.044212] (-) TimerEvent: {}
+[23.144868] (-) TimerEvent: {}
+[23.245501] (-) TimerEvent: {}
+[23.346126] (-) TimerEvent: {}
+[23.446754] (-) TimerEvent: {}
+[23.547362] (-) TimerEvent: {}
+[23.647991] (-) TimerEvent: {}
+[23.748603] (-) TimerEvent: {}
+[23.849220] (-) TimerEvent: {}
+[23.949813] (-) TimerEvent: {}
+[24.050417] (-) TimerEvent: {}
+[24.151026] (-) TimerEvent: {}
+[24.251623] (-) TimerEvent: {}
+[24.352219] (-) TimerEvent: {}
+[24.452827] (-) TimerEvent: {}
+[24.553445] (-) TimerEvent: {}
+[24.654053] (-) TimerEvent: {}
+[24.754642] (-) TimerEvent: {}
+[24.855243] (-) TimerEvent: {}
+[24.955835] (-) TimerEvent: {}
+[25.056459] (-) TimerEvent: {}
+[25.157093] (-) TimerEvent: {}
+[25.257710] (-) TimerEvent: {}
+[25.358329] (-) TimerEvent: {}
+[25.458927] (-) TimerEvent: {}
+[25.559519] (-) TimerEvent: {}
+[25.660134] (-) TimerEvent: {}
+[25.760745] (-) TimerEvent: {}
+[25.861355] (-) TimerEvent: {}
+[25.961917] (-) TimerEvent: {}
+[26.062500] (-) TimerEvent: {}
+[26.163097] (-) TimerEvent: {}
+[26.263703] (-) TimerEvent: {}
+[26.364309] (-) TimerEvent: {}
+[26.464894] (-) TimerEvent: {}
+[26.565475] (-) TimerEvent: {}
+[26.666123] (-) TimerEvent: {}
+[26.766729] (-) TimerEvent: {}
+[26.867290] (-) TimerEvent: {}
+[26.967859] (-) TimerEvent: {}
+[27.068465] (-) TimerEvent: {}
+[27.169098] (-) TimerEvent: {}
+[27.269675] (-) TimerEvent: {}
+[27.370280] (-) TimerEvent: {}
+[27.470884] (-) TimerEvent: {}
+[27.571472] (-) TimerEvent: {}
+[27.672048] (-) TimerEvent: {}
+[27.772641] (-) TimerEvent: {}
+[27.873271] (-) TimerEvent: {}
+[27.973891] (-) TimerEvent: {}
+[28.074494] (-) TimerEvent: {}
+[28.175086] (-) TimerEvent: {}
+[28.275676] (-) TimerEvent: {}
+[28.376272] (-) TimerEvent: {}
+[28.476890] (-) TimerEvent: {}
+[28.577489] (-) TimerEvent: {}
+[28.678070] (-) TimerEvent: {}
+[28.778652] (-) TimerEvent: {}
+[28.879221] (-) TimerEvent: {}
+[28.979803] (-) TimerEvent: {}
+[29.080395] (-) TimerEvent: {}
+[29.180971] (-) TimerEvent: {}
+[29.281574] (-) TimerEvent: {}
+[29.382154] (-) TimerEvent: {}
+[29.482750] (-) TimerEvent: {}
+[29.583345] (-) TimerEvent: {}
+[29.683953] (-) TimerEvent: {}
+[29.784564] (-) TimerEvent: {}
+[29.885161] (-) TimerEvent: {}
+[29.985767] (-) TimerEvent: {}
+[30.086370] (-) TimerEvent: {}
+[30.186956] (-) TimerEvent: {}
+[30.287535] (-) TimerEvent: {}
+[30.388153] (-) TimerEvent: {}
+[30.488748] (-) TimerEvent: {}
+[30.589360] (-) TimerEvent: {}
+[30.689958] (-) TimerEvent: {}
+[30.790567] (-) TimerEvent: {}
+[30.891141] (-) TimerEvent: {}
+[30.991704] (-) TimerEvent: {}
+[31.092318] (-) TimerEvent: {}
+[31.192943] (-) TimerEvent: {}
+[31.293518] (-) TimerEvent: {}
+[31.394329] (-) TimerEvent: {}
+[31.495177] (-) TimerEvent: {}
+[31.596013] (-) TimerEvent: {}
+[31.696832] (-) TimerEvent: {}
+[31.797673] (-) TimerEvent: {}
+[31.898275] (-) TimerEvent: {}
+[31.998846] (-) TimerEvent: {}
+[32.099438] (-) TimerEvent: {}
+[32.200036] (-) TimerEvent: {}
+[32.300636] (-) TimerEvent: {}
+[32.401243] (-) TimerEvent: {}
+[32.501838] (-) TimerEvent: {}
+[32.602446] (-) TimerEvent: {}
+[32.703046] (-) TimerEvent: {}
+[32.803642] (-) TimerEvent: {}
+[32.904214] (-) TimerEvent: {}
+[33.004799] (-) TimerEvent: {}
+[33.105427] (-) TimerEvent: {}
+[33.206035] (-) TimerEvent: {}
+[33.306647] (-) TimerEvent: {}
+[33.407257] (-) TimerEvent: {}
+[33.507874] (-) TimerEvent: {}
+[33.608480] (-) TimerEvent: {}
+[33.709096] (-) TimerEvent: {}
+[33.809722] (-) TimerEvent: {}
+[33.910335] (-) TimerEvent: {}
+[34.010956] (-) TimerEvent: {}
+[34.111572] (-) TimerEvent: {}
+[34.212195] (-) TimerEvent: {}
+[34.312863] (-) TimerEvent: {}
+[34.413486] (-) TimerEvent: {}
+[34.514118] (-) TimerEvent: {}
+[34.614740] (-) TimerEvent: {}
+[34.715352] (-) TimerEvent: {}
+[34.815964] (-) TimerEvent: {}
+[34.916589] (-) TimerEvent: {}
+[35.017230] (-) TimerEvent: {}
+[35.117843] (-) TimerEvent: {}
+[35.218456] (-) TimerEvent: {}
+[35.319106] (-) TimerEvent: {}
+[35.419751] (-) TimerEvent: {}
+[35.520374] (-) TimerEvent: {}
+[35.621001] (-) TimerEvent: {}
+[35.721612] (-) TimerEvent: {}
+[35.822217] (-) TimerEvent: {}
+[35.922801] (-) TimerEvent: {}
+[36.023410] (-) TimerEvent: {}
+[36.124024] (-) TimerEvent: {}
+[36.224665] (-) TimerEvent: {}
+[36.325282] (-) TimerEvent: {}
+[36.425884] (-) TimerEvent: {}
+[36.526523] (-) TimerEvent: {}
+[36.627151] (-) TimerEvent: {}
+[36.727802] (-) TimerEvent: {}
+[36.828411] (-) TimerEvent: {}
+[36.929036] (-) TimerEvent: {}
+[37.029663] (-) TimerEvent: {}
+[37.130306] (-) TimerEvent: {}
+[37.230938] (-) TimerEvent: {}
+[37.331572] (-) TimerEvent: {}
+[37.432192] (-) TimerEvent: {}
+[37.532815] (-) TimerEvent: {}
+[37.633446] (-) TimerEvent: {}
+[37.734069] (-) TimerEvent: {}
+[37.834693] (-) TimerEvent: {}
+[37.935293] (-) TimerEvent: {}
+[38.035920] (-) TimerEvent: {}
+[38.136544] (-) TimerEvent: {}
+[38.237178] (-) TimerEvent: {}
+[38.337829] (-) TimerEvent: {}
+[38.438451] (-) TimerEvent: {}
+[38.539071] (-) TimerEvent: {}
+[38.639692] (-) TimerEvent: {}
+[38.740303] (-) TimerEvent: {}
+[38.840952] (-) TimerEvent: {}
+[38.941557] (-) TimerEvent: {}
+[39.042187] (-) TimerEvent: {}
+[39.142815] (-) TimerEvent: {}
+[39.243440] (-) TimerEvent: {}
+[39.344085] (-) TimerEvent: {}
+[39.444733] (-) TimerEvent: {}
+[39.545378] (-) TimerEvent: {}
+[39.646004] (-) TimerEvent: {}
+[39.746631] (-) TimerEvent: {}
+[39.847235] (-) TimerEvent: {}
+[39.947860] (-) TimerEvent: {}
+[40.048488] (-) TimerEvent: {}
+[40.149127] (-) TimerEvent: {}
+[40.249766] (-) TimerEvent: {}
+[40.350395] (-) TimerEvent: {}
+[40.451007] (-) TimerEvent: {}
+[40.551627] (-) TimerEvent: {}
+[40.652257] (-) TimerEvent: {}
+[40.752881] (-) TimerEvent: {}
+[40.853505] (-) TimerEvent: {}
+[40.954100] (-) TimerEvent: {}
+[41.054731] (-) TimerEvent: {}
+[41.155362] (-) TimerEvent: {}
+[41.255989] (-) TimerEvent: {}
+[41.356599] (-) TimerEvent: {}
+[41.457220] (-) TimerEvent: {}
+[41.557847] (-) TimerEvent: {}
+[41.658454] (-) TimerEvent: {}
+[41.759052] (-) TimerEvent: {}
+[41.859714] (-) TimerEvent: {}
+[41.960487] (-) TimerEvent: {}
+[42.061112] (-) TimerEvent: {}
+[42.161717] (-) TimerEvent: {}
+[42.241846] (gr1-localization-orb-slam3) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable rgbd_yolo\x1b[0m\n'}
+[42.261837] (-) TimerEvent: {}
+[42.362403] (-) TimerEvent: {}
+[42.463114] (-) TimerEvent: {}
+[42.563841] (-) TimerEvent: {}
+[42.664555] (-) TimerEvent: {}
+[42.765263] (-) TimerEvent: {}
+[42.866050] (-) TimerEvent: {}
+[42.966795] (-) TimerEvent: {}
+[43.067457] (-) TimerEvent: {}
+[43.168101] (-) TimerEvent: {}
+[43.268750] (-) TimerEvent: {}
+[43.369459] (-) TimerEvent: {}
+[43.468451] (gr1-localization-orb-slam3) StdoutLine: {'line': b'[100%] Built target rgbd_yolo\n'}
+[43.469510] (-) TimerEvent: {}
+[43.492076] (gr1-localization-orb-slam3) CommandEnded: {'returncode': 0}
+[43.537543] (gr1-localization-orb-slam3) JobProgress: {'identifier': 'gr1-localization-orb-slam3', 'progress': 'install'}
+[43.559948] (gr1-localization-orb-slam3) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nvidia/object_slam/build/gr1-localization-orb-slam3'], 'cwd': '/home/nvidia/object_slam/build/gr1-localization-orb-slam3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'nvidia'), ('SSH_AGENT_PID', '3136'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/home/nvidia/Fourier-SLAM/GR1_Navigation/GR1-Vslam/Thirdparty/DBoW2/lib:/home/nvidia/Fourier-SLAM/GR1_Navigation/GR1-Vslam/Thirdparty/g2o/lib:/home/nvidia/Fourier-SLAM/GR1_Navigation/GR1-Vslam/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/nvidia'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/nvidia/object_slam/GR1-Localization-Orb-Slam3'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '35.5.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'Jetson AGX Orin Developer Kit'), ('MANAGERPID', '2961'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ebbff016bfbf8ed905d499b60002880a'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'nvidia'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Orin (64GB ram)'), ('JETSON_SERIAL_NUMBER', '1420124278126'), ('JOURNAL_STREAM', '8:57090'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Concord'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nvidia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/nvidia/LMDeploy/miniconda3/miniconda3/bin:/home/nvidia/LMDeploy/miniconda3/miniconda3/condabin:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/nvidia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/3171,unix/ubuntu:/tmp/.ICE-unix/3171'), ('INVOCATION_ID', '8351b31f7dd24c8a807d37a0d6c9dca3'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/16fc7b5d_33ba_417e_ae75_ab5d3c1d3b63'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra23x'), ('GNOME_TERMINAL_SERVICE', ':1.129'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/nvidia/LMDeploy/miniconda3/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/nvidia/object_slam/build/gr1-localization-orb-slam3'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/nvidia/LMDeploy/miniconda3/miniconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ebbff016bfbf8ed905d499b60002880a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/nvidia/LMDeploy/miniconda3/miniconda3'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '5.1.3'), ('JETSON_P_NUMBER', 'p3701-0005'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[43.569671] (-) TimerEvent: {}
+[43.579767] (gr1-localization-orb-slam3) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[43.580224] (gr1-localization-orb-slam3) StdoutLine: {'line': b'-- Installing: /home/nvidia/object_slam/install/gr1-localization-orb-slam3/lib/gr1-localization-orb-slam3/rgbd_yolo\n'}
+[43.582891] (gr1-localization-orb-slam3) StdoutLine: {'line': b'-- Set runtime path of "/home/nvidia/object_slam/install/gr1-localization-orb-slam3/lib/gr1-localization-orb-slam3/rgbd_yolo" to ""\n'}
+[43.583430] (gr1-localization-orb-slam3) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/object_slam/install/gr1-localization-orb-slam3/lib/gr1-localization-orb-slam3/config\n'}
+[43.583623] (gr1-localization-orb-slam3) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/object_slam/install/gr1-localization-orb-slam3/lib/gr1-localization-orb-slam3/config/sim_mono.yaml\n'}
+[43.583780] (gr1-localization-orb-slam3) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/object_slam/install/gr1-localization-orb-slam3/lib/gr1-localization-orb-slam3/config/sim.yaml\n'}
+[43.583928] (gr1-localization-orb-slam3) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/object_slam/install/gr1-localization-orb-slam3/lib/gr1-localization-orb-slam3/config/RealSense_D435i.yaml\n'}
+[43.584055] (gr1-localization-orb-slam3) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/object_slam/install/gr1-localization-orb-slam3/lib/gr1-localization-orb-slam3/config/stereo_2173.yaml\n'}
+[43.584177] (gr1-localization-orb-slam3) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/object_slam/install/gr1-localization-orb-slam3/lib/gr1-localization-orb-slam3/config/RealSense_D455i.yaml\n'}
+[43.584317] (gr1-localization-orb-slam3) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/object_slam/install/gr1-localization-orb-slam3/share/gr1-localization-orb-slam3/launch\n'}
+[43.584460] (gr1-localization-orb-slam3) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/object_slam/install/gr1-localization-orb-slam3/share/gr1-localization-orb-slam3/launch/rs_d435_stereo.launch.py\n'}
+[43.584591] (gr1-localization-orb-slam3) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/object_slam/install/gr1-localization-orb-slam3/share/gr1-localization-orb-slam3/launch/d435_rgbd.launch.py\n'}
+[43.584688] (gr1-localization-orb-slam3) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/object_slam/install/gr1-localization-orb-slam3/share/gr1-localization-orb-slam3/launch/sim_slam.launch.py\n'}
+[43.584779] (gr1-localization-orb-slam3) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/object_slam/install/gr1-localization-orb-slam3/share/gr1-localization-orb-slam3/launch/t265.launch.py\n'}
+[43.584887] (gr1-localization-orb-slam3) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/object_slam/install/gr1-localization-orb-slam3/share/gr1-localization-orb-slam3/launch/rs_rgbd_yolo.launch.py\n'}
+[43.585008] (gr1-localization-orb-slam3) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/object_slam/install/gr1-localization-orb-slam3/share/gr1-localization-orb-slam3/launch/rs_d435_rgbd_height.launch.py\n'}
+[43.585162] (gr1-localization-orb-slam3) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/object_slam/install/gr1-localization-orb-slam3/share/gr1-localization-orb-slam3/launch/d435_pcl.launch.py\n'}
+[43.585293] (gr1-localization-orb-slam3) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/object_slam/install/gr1-localization-orb-slam3/share/gr1-localization-orb-slam3/launch/d435_imu.launch.py\n'}
+[43.585404] (gr1-localization-orb-slam3) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/object_slam/install/gr1-localization-orb-slam3/share/gr1-localization-orb-slam3/launch/ros2_rgbd_imu_play_bag.launch.py\n'}
+[43.585496] (gr1-localization-orb-slam3) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/object_slam/install/gr1-localization-orb-slam3/share/gr1-localization-orb-slam3/launch/d435_stereo.launch.py\n'}
+[43.585584] (gr1-localization-orb-slam3) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/object_slam/install/gr1-localization-orb-slam3/share/gr1-localization-orb-slam3/launch/play_old_bag.launch.py\n'}
+[43.585675] (gr1-localization-orb-slam3) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/object_slam/install/gr1-localization-orb-slam3/share/gr1-localization-orb-slam3/launch/rsd455_slam.launch.py\n'}
+[43.585762] (gr1-localization-orb-slam3) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/object_slam/install/gr1-localization-orb-slam3/share/gr1-localization-orb-slam3/launch/rs_d435_rgbd.launch.py\n'}
+[43.585862] (gr1-localization-orb-slam3) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/object_slam/install/gr1-localization-orb-slam3/share/ament_index/resource_index/package_run_dependencies/gr1-localization-orb-slam3\n'}
+[43.585957] (gr1-localization-orb-slam3) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/object_slam/install/gr1-localization-orb-slam3/share/ament_index/resource_index/parent_prefix_path/gr1-localization-orb-slam3\n'}
+[43.586045] (gr1-localization-orb-slam3) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/object_slam/install/gr1-localization-orb-slam3/share/gr1-localization-orb-slam3/environment/ament_prefix_path.sh\n'}
+[43.586134] (gr1-localization-orb-slam3) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/object_slam/install/gr1-localization-orb-slam3/share/gr1-localization-orb-slam3/environment/ament_prefix_path.dsv\n'}
+[43.586220] (gr1-localization-orb-slam3) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/object_slam/install/gr1-localization-orb-slam3/share/gr1-localization-orb-slam3/environment/path.sh\n'}
+[43.586306] (gr1-localization-orb-slam3) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/object_slam/install/gr1-localization-orb-slam3/share/gr1-localization-orb-slam3/environment/path.dsv\n'}
+[43.586391] (gr1-localization-orb-slam3) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/object_slam/install/gr1-localization-orb-slam3/share/gr1-localization-orb-slam3/local_setup.bash\n'}
+[43.586500] (gr1-localization-orb-slam3) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/object_slam/install/gr1-localization-orb-slam3/share/gr1-localization-orb-slam3/local_setup.sh\n'}
+[43.586587] (gr1-localization-orb-slam3) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/object_slam/install/gr1-localization-orb-slam3/share/gr1-localization-orb-slam3/local_setup.zsh\n'}
+[43.586671] (gr1-localization-orb-slam3) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/object_slam/install/gr1-localization-orb-slam3/share/gr1-localization-orb-slam3/local_setup.dsv\n'}
+[43.586763] (gr1-localization-orb-slam3) StdoutLine: {'line': b'-- Installing: /home/nvidia/object_slam/install/gr1-localization-orb-slam3/share/gr1-localization-orb-slam3/package.dsv\n'}
+[43.586848] (gr1-localization-orb-slam3) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/object_slam/install/gr1-localization-orb-slam3/share/ament_index/resource_index/packages/gr1-localization-orb-slam3\n'}
+[43.586933] (gr1-localization-orb-slam3) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/object_slam/install/gr1-localization-orb-slam3/share/gr1-localization-orb-slam3/cmake/gr1-localization-orb-slam3Config.cmake\n'}
+[43.587018] (gr1-localization-orb-slam3) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/object_slam/install/gr1-localization-orb-slam3/share/gr1-localization-orb-slam3/cmake/gr1-localization-orb-slam3Config-version.cmake\n'}
+[43.587103] (gr1-localization-orb-slam3) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/object_slam/install/gr1-localization-orb-slam3/share/gr1-localization-orb-slam3/package.xml\n'}
+[43.589096] (gr1-localization-orb-slam3) CommandEnded: {'returncode': 0}
+[43.670258] (gr1-localization-orb-slam3) JobEnded: {'identifier': 'gr1-localization-orb-slam3', 'rc': 0}
+[43.671975] (-) TimerEvent: {}
+[43.672182] (-) EventReactorShutdown: {}
