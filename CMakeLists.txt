@@ -145,3 +145,31 @@ ${PROJECT_SOURCE_DIR}/Thirdparty/g2o/lib/libg2o.so
 -lboost_serialization
 -lcrypto
 )
+
+
+
+
+# Build examples
+#Monocular examples
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Monocular)
+
+add_executable(mono_tum
+        Examples/Monocular/mono_tum.cc)
+target_link_libraries(mono_tum ${PROJECT_NAME})
+target_link_libraries(mono_tum ${OpenCV_LIBS} -lopencv_ximgproc)
+
+add_executable(mono_ScanNet
+        Examples/Monocular/mono_ScanNet.cc)
+target_link_libraries(mono_ScanNet ${PROJECT_NAME})
+target_link_libraries(mono_ScanNet ${OpenCV_LIBS} -lopencv_ximgproc)
+
+add_executable(mono_VECtor
+        Examples/Monocular/mono_VECtor.cc)
+target_link_libraries(mono_VECtor ${PROJECT_NAME})
+target_link_libraries(mono_VECtor ${OpenCV_LIBS} -lopencv_ximgproc)
+
+
+
+
+
+

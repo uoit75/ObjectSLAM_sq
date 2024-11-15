@@ -1,0 +1,20 @@
+./Monocular/mono_tum ../Vocabulary/ORBvoc.txt ./Monocular/TUM2.yaml ../../Datasets/rgbd_dataset_freiburg2_xyz/  
+./Monocular/mono_tum ../Vocabulary/ORBvoc.txt ./Monocular/TUM2.yaml ../../Datasets/rgbd_dataset_freiburg2_desk/  
+./Monocular/mono_tum ../Vocabulary/ORBvoc.txt ./Monocular/TUM3.yaml ../../Datasets/rgbd_dataset_freiburg3_long_office_household/
+./Monocular-Inertial/mono_inertial_VECtor ../Vocabulary/ORBvoc.txt ./Monocular-Inertial/VECtor.yaml ../../Datasets/desk_normal1.synced.right_camera ../../Datasets/desk_normal1.synced.right_camera/timestamp.txt ../../Datasets/desk_normal1.synced.right_camera/desk_normal1.synced.imu.txt
+./Monocular-Inertial/mono_inertial_euroc ../Vocabulary/ORBvoc.txt ./Monocular-Inertial/EuRoC.yaml ../../Datasets/V2_01_easy/ ./Monocular-Inertial/EuRoC_TimeStamps/V201.txt dataset-V201_monoi
+./Monocular-Inertial/mono_inertial_replica_vi ../Vocabulary/ORBvoc.txt ./Monocular-Inertial/replica.yaml ../../Datasets/room0_v78/build ../../Datasets/room0_v78/image_data.csv ../../Datasets/room0_v78/imu_data.csv 
+
+
+ 
+ ./mono_tum ../../Vocabulary/ORBvoc.txt ./TUM3.yaml ../../../Datasets/rgbd_dataset_freiburg3_long_office_household/
+
+./Monocular/mono_ScanNet ../Vocabulary/ORBvoc.txt ./Monocular/ScanNet709.yaml ../../Datasets/image0709_ok/
+需修改tracking.cc 6057 6059 6061 6063行
+./Monocular/mono_VECtor ../Vocabulary/ORBvoc.txt ./Monocular/VECtor.yaml ../../Datasets/VECtor_sofa_normal1.synced.right_camera/
+
+
+
+
+./Monocular/mono_ScanNet ../Vocabulary/ORBvoc.txt ./Monocular/ScanNet709.yaml /home/njust/datasets/image0709_ok/
+./Monocular/mono_VECtor ../Vocabulary/ORBvoc.txt ./Monocular/VECtor.yaml /home/njust/datasets/VECtor_sofa_normal1.synced.right_camera/
